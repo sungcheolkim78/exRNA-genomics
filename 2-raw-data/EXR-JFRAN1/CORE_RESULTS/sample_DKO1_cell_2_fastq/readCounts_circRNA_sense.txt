@@ -1,0 +1,10 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+hsa_circ_001177	3	3	3.0	0.0
+hsa_circ_001132	1	1	1.0	0.0
+hsa_circ_000889	1	1	1.0	0.0
+hsa_circ_001359	1	1	1.0	0.0
+hsa_circ_002097	1	1	1.0	0.0
+circRNA#circRNA_1798	1	1	1.0	0.0
+hsa_circ_001826	1	1	1.0	0.0
+hsa_circ_001730	1	1	1.0	0.0
+hsa_circ_000494	1	1	1.0	0.0

@@ -1,0 +1,34 @@
+#property	value
+Biosample	EXR-JFRAN1DKS8CE3-BS
+- Status	Protect
+- Name	DKS8.cell.3
+* Related Experiments	1
+*- Related Experiment	EXR-JFRAN1CRCDKS8-EX
+*-- DocURL	coll/Experiments/doc/EXR-JFRAN1CRCDKS8-EX
+- Donor ID	EXR-JFRAN1CRCKRAS-DO
+-- DocURL	coll/Donors/doc/EXR-JFRAN1CRCKRAS-DO
+- Biological Sample Elements	
+-- Notes	"Used cell culture media and lysed cells. Purified exosomes kept at 4C no freezing. For fractionation, differential Centrifugation was done."
+-- Biological Fluid	
+--- Biofluid Name	Culture Media, Conditioned
+-- Starting Amount	500ug of exosomal protein per prep
+-- Species	
+--- Common Name	Human
+--- Scientific Name	Homo sapiens
+--- Taxon ID	9606
+-- Provider	
+--- Lab Name	Coffey lab
+-- Cell Culture Supernatant	
+--- Source	Human Cell Line
+---- Type	colorectal cancer cell
+--- Tissue	colon
+---- Date Obtained	2011-08-22
+---- Tissue Type	frozen specimen
+-- Anatomical Location	Colon part
+-- Replicate Information	triplicate samples done. Cell RNAs also isolated
+--- Biological Replicate Number	3
+-- Disease Type	colorectal cancer
+- Description	Coffey lab colorectal cancer DKS8 isogenic KRAS cell line exosomal RNAs. DKS8 isogenic cell lines that vary in KRAS status (Parent DLD1 G13D/+; DKO1 G13D/-; DKS8 +/-) had exosomes isolated from conditioned media and RNA (long and short were sequenced).
+- Molecular Sample Elements	
+-- exRNA Source	extracellular exosome
+-- Fractionation	Yes

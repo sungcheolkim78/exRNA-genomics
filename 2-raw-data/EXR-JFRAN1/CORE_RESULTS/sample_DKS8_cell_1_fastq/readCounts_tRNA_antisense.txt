@@ -1,0 +1,17 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+tRNA-Ser-AGA-chr11-8	13	42	42.0	0.0
+tRNA-Tyr-GTA-chr21-2	46	59	19.66666666666666	0.0
+tRNA-Tyr-GTA-chr1-127	46	59	19.66666666666666	0.0
+tRNA-Tyr-GTA-chr14-8	42	55	17.666666666666664	0.0
+nmt-tRNA-Gln-TTG-9-1	9	11	6.0	0.0
+nmt-tRNA-Gln-TTG-7-1	8	10	5.0	0.0
+nmt-tRNA-Val-TAC-1-1	4	5	4.5	0.0
+tRNA-Trp-CCA-2-1	2	2	2.0	0.0
+tRNA-Tyr-GTA-9-1	2	2	2.0	0.0
+tRNA-Ile-TAT-1-1	1	1	1.0	0.0
+nmt-tRNA-Leu-TAA-4-1	1	1	1.0	0.0
+tRNA-Tyr-GTA-chr9-10	2	5	1.0	0.0
+tRNA-Tyr-GTA-chr10-3	2	5	1.0	0.0
+tRNA-Gln-CTG-13-1	1	1	1.0	0.0
+tRNA-Arg-TCT-1-1	1	1	1.0	0.0
+nmt-tRNA-Leu-TAA-1-1	1	1	0.5	0.0

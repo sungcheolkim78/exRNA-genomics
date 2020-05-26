@@ -1,0 +1,33 @@
+#STATS from the exceRpt smallRNA-seq pipeline v.4.6.2 for sample sample_DLD1_cell_1_fastq. Run started at 2016-10-17--17:26:49
+Stage	ReadCount
+input	29843240
+successfully_clipped	20392879
+failed_quality_filter	1807301
+failed_homopolymer_filter	18174
+calibrator	NA
+UniVec_contaminants	17306
+rRNA	1887893
+reads_used_for_alignment	16662205
+genome	15801025
+miRNA_sense	11278110
+miRNA_antisense	0
+miRNAprecursor_sense	42877
+miRNAprecursor_antisense	3224
+tRNA_sense	463315
+tRNA_antisense	56
+piRNA_sense	158015
+piRNA_antisense	63
+gencode_sense	2572259
+gencode_antisense	44614
+circularRNA_sense	9
+circularRNA_antisense	501
+not_mapped_to_genome_or_libs	861180
+repetitiveElements	20917
+endogenous_gapped	10348
+input_to_exogenous_miRNA	829915
+exogenous_miRNA	39486
+input_to_exogenous_rRNA	790429
+exogenous_rRNA	3568
+input_to_exogenous_genomes	786861
+exogenous_genomes	417617
+#END OF STATS from the exceRpt smallRNA-seq pipeline. Run completed at 2016-10-20--15:24:16

@@ -1,0 +1,4 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+hsa_piR_017002|gb|DQ593493|Homo_sapiens:3:100237826:100237854:Plus	1	1	1.0	0.0
+hsa_piR_022331|gb|DQ600558|Homo_sapiens:7:72170713:72170738:Minus	1	1	1.0	0.0
+hsa_piR_014620|gb|DQ590013|Homo_sapiens:5:93930930:93930956:Minus	1	1	1.0	0.0

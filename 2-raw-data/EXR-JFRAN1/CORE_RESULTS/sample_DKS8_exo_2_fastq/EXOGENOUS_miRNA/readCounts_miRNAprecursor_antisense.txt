@@ -1,0 +1,14 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+atr-MIR171b:MI0027523:Amborella:trichopoda:miR171b:stem-loop	2	3	3.0	0.0
+bol-MIR9411:MI0029005:Brassica:oleracea:miR9411:stem-loop	2	3	2.5	0.0
+cel-mir-788:MI0005188:Caenorhabditis:elegans:miR-788:stem-loop	1	2	2.0	0.0
+csi-MIR396c:MI0016735:Citrus:sinensis:miR396c:stem-loop	1	2	1.0	0.0
+sbi-MIR5567:MI0019101:Sorghum:bicolor:miR5567:stem-loop	1	1	1.0	0.0
+zma-MIR166a:MI0001480:Zea:mays:miR166a:stem-loop	1	2	1.0	0.0
+aae-mir-7:MI0013496:Aedes:aegypti:miR-7:stem-loop	1	1	1.0	0.0
+hsa-mir-1273e:MI0016059:Homo:sapiens:miR-1273e:stem-loop	1	1	1.0	0.0
+dsi-mir-983a:MI0011791:Drosophila:simulans:miR-983:stem-loop	1	1	1.0	0.0
+oan-mir-20a-1:MI0006872:Ornithorhynchus:anatinus:miR-20a-1:stem-loop	1	1	0.5	0.0
+oan-mir-193:MI0006676:Ornithorhynchus:anatinus:miR-193:stem-loop	1	1	0.3333333333333333	0.0
+gga-mir-193b:MI0003698:Gallus:gallus:miR-193b:stem-loop	1	1	0.3333333333333333	0.0
+sha-mir-193:MI0019619:Sarcophilus:harrisii:miR-193:stem-loop	1	1	0.3333333333333333	0.0

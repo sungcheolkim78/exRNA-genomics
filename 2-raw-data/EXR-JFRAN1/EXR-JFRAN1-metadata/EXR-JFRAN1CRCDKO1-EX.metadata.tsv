@@ -1,0 +1,54 @@
+#property	value
+Experiment	EXR-JFRAN1CRCDKO1-EX
+- Experiment Type	smRNA-Seq
+-- smRNA-Seq	
+--- Amplified	No
+---- DNA Quantification Method	Other
+----- Other DNA Quantification Method	None
+--- Library Generation	
+---- Library Construction Kit	Other
+----- Other Library Construction Kit	None
+---- Multiplexed Samples	No
+---- Strand Specificity	non-stranded
+---- Type of Starting Material	small RNA
+- Status	Release
+- exRNA Sample Preparation Protocol	
+-- exRNA Quantification Method	Nanodrop
+-- RNA Isolation Method	
+--- RNA Isolation Kit	miRNeasy (Qiagen)
+--- Description	TRIZOL then miRNeasy kit from Qiagen. According to manufacturers instructions. Also isolated cell RNAs from which exosomes were isolated. Lysed on the plate with trizol to start.
+-- RNA Integrity Method	bioanalysis, qdrop done at Hudsonalpha
+-- Pre-purification of Extracellular Vesicles	Yes
+-- Protocol Description	see above
+- exRNA Source Isolation Protocol	
+-- Biofluid	
+--- Cell Removal Step Done	Yes
+-- Cell Culture Supernatant	
+--- Confluency	80 %
+--- Mycoplasma Test	Yes
+---- Details of Mycoplasma Test	Done Weekly
+--- Cell Viability	95 %
+--- Passage Details	Less than 12 passages after liquid nitrogen. Standard incubator conditions were used for Oxygen Tension. Cell viability was greater than 95%.
+---- Temperature	37 C
+---- Passaging Method	Trypsin
+---- Cell Type Marker	Colorectal cancer cells DKO1
+---- Media Additives	No serum with collection
+---- Basal Media	Standard DMEM for growth (DMEM high glucose, 10% bovine serum, 5% Penn/strep, 5% Gln)
+---- Passage Number	12
+--- Cell Removal Step Done	Yes
+---- Cell Removal Method	Low speed centrifugation
+----- Low Speed Centrifugation	300 xg
+------ Centrifugation Parameters	
+------- Temperature	4 C
+------- Duration	0.166667 h
+------- Speed	300 xG
+----- Filtration	0.22-um polyether-sulfone (100,000 mw cut off) (Nalgene, Rochester, NY) to reduce microparticle contamination, 3400g, duration of 35 min
+------ Pore Size	0.22 um
+----- High Speed Centrifugation	
+------ Centrifugation Parameters	
+------- Temperature	4 C
+------- Duration	2.5 h
+------- Speed	165 xG
+--- Serum Used	No
+---- Type	Vesicle depleted in-house
+-- Protocol Description	To purify exosomes from conditioned media of routine cell lines, cells are cultured in their appropriate complete growth media until approximately 80% confluent. Cells are washed three times with PBS and cultured for an additional 48 hrs in serum-free medium. The serum-free conditioned medium is collected and centrifuged for 10 min at 300 x g to remove cellular debris, and the resulting supernatant is filtered through a 0.22-?m polyether-sulfone filter (Nalgene, Rochester, NY) to reduce microparticle contamination. The filtrate is concentrated approximately 300-fold with a 100,000 molecular-weight cutoff centrifugal concentrator (Millipore). The concentrate is centrifuged at 165,000 x g for 2.5 hrs. The exosome-enriched pellet is resuspended by successive syringing thru 22-, 27-, and 30-gauge syringes seven times each in PBS containing 25 mM HEPES (pH 7.35) and washed by centrifuging again at 165,000 x g for 2.5 hrs. The wash steps are repeated until no trace of phenol-red is detected. The resulting pellet is resuspended in PBS containing 25 mM HEPES (pH 7.35) and the protein concentrations of the exosome preparations determined with a MicroBCA kit (Pierce). Then total RNA from exosomes and cells was isolated using TRIzol (Life Technologies/Thermo). In the case of exosomal RNA isolation TRIzol was incubated with 100 ul or less of concentrated exosomes for an extended 15 min incubation prior to chloroform extraction. RNA pellets were resuspended in 60 μl of RNase-free water and were then re-purified using the miRNeasy kit (Qiagen Inc., Valencia, CA, USA). Final RNAs were eluted with two rounds of 30 ul water extraction.

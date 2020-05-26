@@ -1,0 +1,35 @@
+#property	value
+Experiment	EXR-AKRIC1AKGBMexo-EX
+- Experiment Type	smRNA-Seq
+-- smRNA-Seq	
+--- Amplified	Yes
+---- DNA Quantification Method	Picogreen
+--- Library Generation	
+---- Library Construction Kit	NEBNext small RNA library prep (NEB)
+---- Multiplexed Samples	Yes
+---- Strand Specificity	stranded
+---- Type of Starting Material	total RNA
+- Status	Add
+- exRNA Sample Preparation Protocol	
+-- Spike-in RNAs	Yes
+-- Enzymatic Treatment of Purified exRNA	Yes
+-- exRNA Quantification Method	Ribogreen
+--- Bioanalyzer Profile Images	0
+--- Other exRNA Quantification Method	Quant-iT™ RiboGreen® RNA Assay Kit
+-- RNA Isolation Method	
+--- RNA Isolation Kit	miRCURY RNA isolation kit - Cell & Plant (Exiqon)
+-- RNA Integrity Method	
+--- Instrument	Agilent 2011
+-- Pre-purification of Extracellular Vesicles	No
+-- Protocol Description	Vesicles/particles on the filter were lysed and exRNAs were isolated using miRCURY
+- exRNA Source Isolation Protocol	
+-- Biofluid	
+--- Cell Removal Step Done	No
+-- Cell Culture Supernatant	
+--- Passage Details	low
+---- Cell Type Marker	
+--- Cell Removal Step Done	Yes
+---- Cell Removal Method	Low speed centrifugation
+----- Low Speed Centrifugation	300g 10min; 2000g 15min
+--- Serum Used	No
+-- Protocol Description	Conditioned media were low speed centrifuged to remove cells, and different fractions of vesicals/particals were separated by sequential filtration.

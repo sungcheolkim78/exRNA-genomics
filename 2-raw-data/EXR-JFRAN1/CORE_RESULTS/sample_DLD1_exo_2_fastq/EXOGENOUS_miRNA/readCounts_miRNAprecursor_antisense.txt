@@ -1,0 +1,16 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+efu-mir-574-2:MI0028910:Eptesicus:fuscus:miR-574-2:stem-loop	1	2	2.0	0.0
+ppt-MIR166g:MI0005910:Physcomitrella:patens:miR166g:stem-loop	1	1	1.0	0.0
+ppy-mir-1273a:MI0015230:Pongo:pygmaeus:miR-1273a:stem-loop	1	2	1.0	0.0
+bol-MIR9411:MI0029005:Brassica:oleracea:miR9411:stem-loop	1	1	1.0	0.0
+ppy-mir-1273e:MI0020933:Pongo:pygmaeus:miR-1273e:stem-loop	1	1	1.0	0.0
+ppt-MIR1030a:MI0005975:Physcomitrella:patens:miR1030a:stem-loop	1	1	1.0	0.0
+smo-MIR1092:MI0006076:Selaginella:moellendorffii:miR1092:stem-loop	1	1	1.0	0.0
+hsa-mir-4459:MI0016805:Homo:sapiens:miR-4459:stem-loop	1	2	1.0	0.0
+bdi-MIR7723a:MI0025336:Brachypodium:distachyon:miR7723a:stem-loop	1	1	0.5	0.0
+cgr-mir-1285:MI0020390:Cricetulus:griseus:miR-1285:stem-loop	1	1	0.5	0.0
+ssc-mir-1285:MI0013164:Sus:scrofa:miR-1285:stem-loop	1	1	0.5	0.0
+mdo-mir-7267:MI0023769:Monodelphis:domestica:miR-7267:stem-loop	1	1	0.5	0.0
+ptr-mir-1285:MI0008486:Pan:troglodytes:miR-1285:stem-loop	1	1	0.3333333333333333	0.0
+hsa-mir-1285-1:MI0006346:Homo:sapiens:miR-1285-1:stem-loop	1	1	0.3333333333333333	0.0
+ppy-mir-1285a:MI0015241:Pongo:pygmaeus:miR-1285a:stem-loop	1	1	0.3333333333333333	0.0

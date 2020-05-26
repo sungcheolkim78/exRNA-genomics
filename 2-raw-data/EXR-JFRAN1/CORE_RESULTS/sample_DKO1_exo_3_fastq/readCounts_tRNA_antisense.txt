@@ -1,0 +1,4 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+tRNA-Tyr-GTA-chr21-2	3	12	4.333333333333333	0.0
+tRNA-Tyr-GTA-chr1-127	3	12	4.333333333333333	0.0
+tRNA-Tyr-GTA-chr14-8	2	10	3.3333333333333335	0.0

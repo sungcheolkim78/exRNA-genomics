@@ -1,0 +1,16 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+ppy-mir-1273a:MI0015230:Pongo:pygmaeus:miR-1273a:stem-loop	7	8	7.5	0.0
+mmu-mir-6240:MI0021587:Mus:musculus:miR-6240:stem-loop	5	6	6.0	0.0
+gga-mir-6629:MI0022448:Gallus:gallus:miR-6629:stem-loop	1	2	2.0	0.0
+hsa-mir-6087:MI0020364:Homo:sapiens:miR-6087:stem-loop	1	1	1.0	0.0
+ccr-mir-29a:MI0023386:Cyprinus:carpio:miR-29a:stem-loop	1	1	1.0	0.0
+hsa-mir-1273g:MI0018003:Homo:sapiens:miR-1273g:stem-loop	1	1	0.5	0.0
+ggo-mir-140:MI0020628:Gorilla:gorilla:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+rno-mir-140:MI0000611:Rattus:norvegicus:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+oan-mir-140:MI0006671:Ornithorhynchus:anatinus:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+sha-mir-140:MI0019604:Sarcophilus:harrisii:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+mne-mir-140:MI0002548:Macaca:nemestrina:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+hsa-mir-140:MI0000456:Homo:sapiens:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+ppy-mir-140:MI0014832:Pongo:pygmaeus:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+mml-mir-140:MI0007630:Macaca:mulatta:miR-140:stem-loop	1	1	0.1111111111111111	0.0
+ptr-mir-140:MI0002547:Pan:troglodytes:miR-140:stem-loop	1	1	0.1111111111111111	0.0

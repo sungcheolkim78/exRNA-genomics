@@ -1,0 +1,6 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+circRNA#circRNA_2646	3	5	5.0	0.0
+circRNA#circRNA_6902	1	2	2.0	0.0
+circRNA#circRNA_6548	1	1	1.0	0.0
+hsa_circ_000844	1	1	1.0	0.0
+hsa_circ_000002	1	1	1.0	0.0

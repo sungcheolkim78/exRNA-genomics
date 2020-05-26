@@ -1,0 +1,15 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+hsa-let-7b:MI0000063:Homo:sapiens:let-7b:stem-loop	5	41	40.5	0.0
+hsa-let-7a-3:MI0000062:Homo:sapiens:let-7a-3:stem-loop	1	10	5.0	0.0
+hsa-let-7a-1:MI0000060:Homo:sapiens:let-7a-1:stem-loop	1	10	5.0	0.0
+hsa-mir-3192:MI0014237:Homo:sapiens:miR-3192:stem-loop	1	4	4.0	0.0
+hsa-mir-5189:MI0018168:Homo:sapiens:miR-5189:stem-loop	3	3	3.0	0.0
+hsa-mir-598:MI0003610:Homo:sapiens:miR-598:stem-loop	2	2	2.0	0.0
+hsa-mir-602:MI0003615:Homo:sapiens:miR-602:stem-loop	1	1	1.0	0.0
+hsa-mir-6798:MI0022643:Homo:sapiens:miR-6798:stem-loop	1	1	1.0	0.0
+hsa-mir-3125:MI0014142:Homo:sapiens:miR-3125:stem-loop	1	1	1.0	0.0
+hsa-mir-4441:MI0016784:Homo:sapiens:miR-4441:stem-loop	1	1	1.0	0.0
+hsa-mir-4305:MI0015835:Homo:sapiens:miR-4305:stem-loop	1	1	1.0	0.0
+hsa-mir-181a-2:MI0000269:Homo:sapiens:miR-181a-2:stem-loop	1	1	1.0	0.0
+hsa-let-7f-1:MI0000067:Homo:sapiens:let-7f-1:stem-loop	1	1	1.0	0.0
+hsa-mir-98:MI0000100:Homo:sapiens:miR-98:stem-loop	1	1	0.5	0.0

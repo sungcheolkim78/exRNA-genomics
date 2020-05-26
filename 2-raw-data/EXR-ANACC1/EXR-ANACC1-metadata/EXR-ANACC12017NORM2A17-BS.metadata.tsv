@@ -1,0 +1,21 @@
+#property	value
+Biosample	EXR-ANACC12017NORM2A17-BS
+- Status	Protect
+- Name	Plasma_56
+* Related Experiments	1
+*- Related Experiment	EXR-ANACC12017NORM2-EX
+*-- DocURL	coll/Experiments/doc/EXR-ANACC12017NORM2-EX
+- Donor ID	EXR-ANACC12017NORM2A17-DO
+-- DocURL	coll/Donors/doc/EXR-ANACC12017NORM2A17-DO
+- Biological Sample Elements	
+-- Biological Fluid	
+--- Biofluid Name	Plasma
+-- Species	
+--- Common Name	Human
+--- Scientific Name	Homo sapiens
+--- Taxon ID	9606
+-- Anatomical Location	Entire body system
+-- Disease Type	Healthy Control
+- Molecular Sample Elements	
+-- exRNA Source	extracellular exosome
+-- Fractionation	Yes

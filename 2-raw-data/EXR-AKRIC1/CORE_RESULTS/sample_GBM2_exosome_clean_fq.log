@@ -1,0 +1,323 @@
+2016-10-17--17:01:00 exceRpt_smallRNA: BEGIN exceRpt smallRNA-seq pipeline v.4.6.2 for sample sample_GBM2_exosome_clean_fq
+======================
+
+2016-10-17--17:01:00 exceRpt_smallRNA: Created results dir: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq
+
+======================
+
+2016-10-17--17:01:00 exceRpt_smallRNA: Processing adapter sequence:
+
+2016-10-17--17:01:00 exceRpt_smallRNA: echo AGATCGGAAGAGCACACGTCT > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.adapterSeq
+
+======================
+
+2016-10-17--17:01:00 exceRpt_smallRNA: Guessing encoding of fastq read-qualities:
+
+2016-10-17--17:01:00 exceRpt_smallRNA: cat /scratch/wbJob-runExceRpt-ADd5ZA-9529/GBM2_exosome_clean.fq | head -n 40000 | awk '{if(NR%4==0) printf(%s,/bin/sh);}' | od -A n -t u1 | grep -v ^* | awk 'BEGIN{min=100;max=0;}{for(i=1;i<=NF;i++) {if(>max) max=; if(<min) min=;}}END{if(max<84) print 33; else print 64;}' > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.qualityEncoding
+
+2016-10-17--17:01:00 exceRpt_smallRNA: Finished guessing encoding of fastq read-qualities:
+
+======================
+
+2016-10-17--17:01:00 exceRpt_smallRNA: Checking adapter against known sequences: cat /scratch/wbJob-runExceRpt-ADd5ZA-9529/GBM2_exosome_clean.fq 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err | java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar FindAdapter -n 1000 -m 100000 -s 4 -a /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/adapters/adapters.fa - > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.knownAdapterSeq 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+
+2016/10/17 17:01:01  Searching for best of 7 potential adapter sequences
+2016/10/17 17:01:01  
+2016/10/17 17:01:01  FOUND! Most likely adapter (after 1000 reads): TruSeq_adapter_p7_OR_NEB_smallRNA_3p: AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC
+2016/10/17 17:01:01         with an average alignment score of 22.37 (36.0x higher than the next best adapter: TruSeq_smallRNA_3p: TGGAATTCTCGGGTGCCAAGG)
+======================
+
+2016-10-17--17:01:01 exceRpt_smallRNA: Provided/guessed adapter sequence: AGATCGGAAGAGCACACGTCT
+2016-10-17--17:01:01 exceRpt_smallRNA: 2016-10-17--17:01:01 exceRpt_smallRNA: Provided 3' adapter sequence. Removing 3' adapter sequence using fastX:
+
+2016-10-17--17:01:01 exceRpt_smallRNA: cat /scratch/wbJob-runExceRpt-ADd5ZA-9529/GBM2_exosome_clean.fq > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.preClipped.fastq.tmp; fastx_clipper  -Q64 -a AGATCGGAAGAGCACACGTCT -l 18 -v -n -M 7 -i /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.preClipped.fastq.tmp -z -o /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.fastq.tmp.gz >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; rm /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.preClipped.fastq.tmp
+
+Clipping Adapter: AGATCGGAAGAGCACACGTCT
+Min. Length: 18
+Input: 13497116 reads.
+Output: 13431204 reads.
+discarded 54978 too-short reads.
+discarded 10934 adapter-only reads.
+2016-10-17--17:09:00 exceRpt_smallRNA: Finished removing adapters
+
+2016-10-17--17:09:00 exceRpt_smallRNA: Removing 0N random barcode:
+
+2016-10-17--17:09:00 exceRpt_smallRNA: mv /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.fastq.tmp.gz /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.fastq.gz
+
+2016-10-17--17:09:00 exceRpt_smallRNA: Finished removing random barcode
+
+======================
+
+2016-10-17--17:09:00 exceRpt_smallRNA: Trimming 0 bases from the 5' and 0 bases from the 3' of all reads:
+
+2016-10-17--17:09:00 exceRpt_smallRNA: gunzip -c /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.fastq.gz | java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar TrimFastq -5p 0 -3p 0 | gzip -c > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.fastq.gz 2>>/scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+
+2016-10-17--17:10:51 exceRpt_smallRNA: Finished trimming bases from the 5' and 3' end of all reads
+
+======================
+
+2016-10-17--17:10:51 exceRpt_smallRNA: Filtering reads by base quality:
+
+2016-10-17--17:10:51 exceRpt_smallRNA: gunzip -c /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.fastq.gz | fastq_quality_filter -v -Q64 -p 80 -q 20 > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.tmp
+
+Quality cut-off: 20
+Minimum percentage: 80
+Input: 13431204 reads.
+Output: 13330290 reads.
+discarded 100914 (0%) low-quality reads.
+2016-10-17--17:12:07 exceRpt_smallRNA: Finished filtering reads by base quality
+
+======================
+
+2016-10-17--17:12:07 exceRpt_smallRNA: Filtering homopolymer repeat reads:
+
+2016-10-17--17:12:07 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar RemoveHomopolymerRepeats -m 0.66 -i /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.tmp -o /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.fastq
+
+
+Done.  Sequences removed=22407
+2016-10-17--17:14:32 exceRpt_smallRNA: Finished filtering homopolymer repeat reads
+
+======================
+2016-10-17--17:14:32 exceRpt_smallRNA: Calculating length distribution of clipped reads:
+
+2016-10-17--17:14:32 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar GetSequenceLengths /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.fastq > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.readLengths.txt 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+2016-10-17--17:14:56 exceRpt_smallRNA: Finished calculating read-lengths
+
+======================
+2016-10-17--17:14:56 exceRpt_smallRNA: Running FastQC on clipped reads:
+
+2016-10-17--17:14:56 exceRpt_smallRNA: java -classpath /opt/FastQC/0.11.2:/opt/FastQC/0.11.2/sam-1.103.jar:/opt/FastQC/0.11.2/jbzip2-0.9.jar -Xmx30G -Dfastqc.threads=8 -Dfastqc.unzip=false -Dfastqc.output_dir=/scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/ uk/ac/bbsrc/babraham/FastQC/FastQCApplication /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.fastq.gz >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Analysis complete for sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.fastq.gz
+2016-10-17--17:15:59 exceRpt_smallRNA: Finished running FastQC
+
+======================
+
+2016-10-17--17:16:00 exceRpt_smallRNA: No calibrator sequences
+ 
+2016-10-17--17:16:00 exceRpt_smallRNA: 
+2016-10-17--17:16:00 exceRpt_smallRNA: Moving on to UniVec and rRNA sequences
+
+======================
+
+2016-10-17--17:16:00 exceRpt_smallRNA: Mapping reads to contaminant sequences in UniVec using STAR:
+
+2016-10-17--17:16:00 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_UniVec_ --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/UniVec/STAR_INDEX_UniVec --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; samtools view /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_UniVec_Aligned.out.bam | awk '{print }' | sort -k 2,2 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err | uniq --count > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.uniVecContaminants.counts 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; samtools view /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_UniVec_Aligned.out.bam | awk '{print }' | sort 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err | uniq -c | wc -l > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.uniVecContaminants.readCount 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; gzip -c /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_UniVec_Unmapped.out.mate1 > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.noUniVecContaminants.fastq.gz; rm /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_UniVec_Unmapped.out.mate1
+
+Oct 17 17:16:00 ..... Started STAR run
+Oct 17 17:16:00 ..... Loading genome
+Oct 17 17:16:00 ..... Started mapping
+Oct 17 17:17:40 ..... Finished successfully
+2016-10-17--17:20:00 exceRpt_smallRNA: Finished mapping to the UniVec contaminant DB
+
+======================
+
+2016-10-17--17:20:00 exceRpt_smallRNA: Mapping reads to ribosomal RNA sequences using STAR:
+
+2016-10-17--17:20:00 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_rRNA_ --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/STAR_INDEX_rRNA --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.noUniVecContaminants.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; samtools view /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_rRNA_Aligned.out.bam | awk '{print }' | sort -k 2,2 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err | uniq -c > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.rRNA.counts 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; samtools view /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_rRNA_Aligned.out.bam | awk '{print }' | sort 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err | uniq -c | wc -l > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.rRNA.readCount 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err; gzip -c /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_rRNA_Unmapped.out.mate1 > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.noRiboRNA.fastq.gz; rm /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/filteringAlignments_rRNA_Unmapped.out.mate1
+
+Oct 17 17:20:00 ..... Started STAR run
+Oct 17 17:20:00 ..... Loading genome
+Oct 17 17:20:00 ..... Started mapping
+Oct 17 17:21:37 ..... Finished successfully
+2016-10-17--17:23:49 exceRpt_smallRNA: Finished mapping to the rRNAs
+
+======================
+2016-10-17--17:23:49 exceRpt_smallRNA: Running FastQC on cleaned reads:
+
+2016-10-17--17:23:49 exceRpt_smallRNA: java -classpath /opt/FastQC/0.11.2:/opt/FastQC/0.11.2/sam-1.103.jar:/opt/FastQC/0.11.2/jbzip2-0.9.jar -Xmx30G -Dfastqc.threads=8 -Dfastqc.unzip=false -Dfastqc.output_dir=/scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/ uk/ac/bbsrc/babraham/FastQC/FastQCApplication /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.noRiboRNA.fastq.gz >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Analysis complete for sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.noRiboRNA.fastq.gz
+2016-10-17--17:24:28 exceRpt_smallRNA: Finished running FastQC
+
+======================
+
+2016-10-17--17:24:28 exceRpt_smallRNA: Mapping reads to the genome of the primary organism:
+
+2016-10-17--17:24:28 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genome_ --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/STAR_INDEX_genome --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/sample_GBM2_exosome_clean_fq.clipped.trimmed.filtered.noRiboRNA.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Oct 17 17:24:28 ..... Started STAR run
+Oct 17 17:24:28 ..... Loading genome
+Oct 17 17:24:43 ..... Started mapping
+Oct 17 17:26:29 ..... Finished successfully
+2016-10-17--17:26:29 exceRpt_smallRNA: Finished mapping to the genome of the primary organism
+
+======================
+
+2016-10-17--17:26:44 exceRpt_smallRNA: Mapping genome-aligned reads to the transcriptome of the primary organism:
+
+2016-10-17--17:26:44 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeMapped_transcriptome_ --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genome_Mapped.out.mate1 --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/STAR_INDEX_transcriptome --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  --readFilesCommand - >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Oct 17 17:26:44 ..... Started STAR run
+Oct 17 17:26:45 ..... Loading genome
+Oct 17 17:26:47 ..... Started mapping
+Oct 17 17:31:22 ..... Finished successfully
+2016-10-17--17:31:22 exceRpt_smallRNA: Finished mapping genome-aligned reads to the transcriptome of the primary organism
+
+2016-10-17--17:31:26 exceRpt_smallRNA: Mapping genome-unaligned reads to the transcriptome of the primary organism:
+
+2016-10-17--17:31:26 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeUnmapped_transcriptome_ --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genome_Unmapped.out.mate1 --outReadsUnmapped Fastx --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/STAR_INDEX_transcriptome --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  --readFilesCommand - >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Oct 17 17:31:26 ..... Started STAR run
+Oct 17 17:31:26 ..... Loading genome
+Oct 17 17:31:28 ..... Started mapping
+Oct 17 17:33:05 ..... Finished successfully
+2016-10-17--17:33:05 exceRpt_smallRNA: Finished mapping genome-unaligned reads to the transcriptome of the primary organism
+
+======================
+
+2016-10-17--17:33:24 exceRpt_smallRNA: Performing CIGAR QC on endogenous genome alignments:
+
+2016-10-17--17:33:24 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar CIGAR_2_PWM -f /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genome_Aligned.out.bam > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genome_Aligned.out.bam.CIGARstats.txt 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+2016/10/17 17:34:13  SAM records read = 5940875
+2016/10/17 17:34:13  max observed read length = 49
+2016-10-17--17:34:13 exceRpt_smallRNA: Finished performing CIGAR QC on endogenous genome alignments
+
+2016-10-17--17:34:13 exceRpt_smallRNA: Sorting endogenous transcriptome alignments:
+
+2016-10-17--17:34:13 exceRpt_smallRNA: samtools sort -n -@ 8 -m 2G -O bam -T /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/tmp /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeMapped_transcriptome_Aligned.out.bam > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeMapped_transcriptome_Aligned.out.sorted.bam 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+2016-10-17--17:36:25 exceRpt_smallRNA: Finished sorting endogenous transcriptome alignments
+
+2016-10-17--17:36:25 exceRpt_smallRNA: Performing read-coverage QC on endogenous transcriptome alignments:
+
+2016-10-17--17:36:25 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar ReadCoverage -exceRpt -a /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/gencodeAnnotation.gtf -f /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeMapped_transcriptome_Aligned.out.sorted.bam 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+2016/10/17 17:36:25  Reading GTF file...
+2016/10/17 17:37:53  Done - Read 2619444 GTF entries corresponding to 57820 genes and 196520 transcripts
+2016/10/17 17:37:54  Average annotated lengths:  5'UTR=136.0  CDS=699  3'UTR=303.0
+2016/10/17 17:37:54  nBins:  5'UTR=23  CDS=124  3'UTR=53
+2016/10/17 17:37:58  Reading reference sequences (transcripts)...
+2016/10/17 17:38:05  N reference sequences (transcripts): 224730
+2016/10/17 17:38:05  Adding read alignments...
+2016/10/17 17:39:39  Writing read bins...
+2016/10/17 17:39:52  Done
+2016-10-17--17:39:53 exceRpt_smallRNA: Finished performing read-coverage QC on endogenous transcriptome alignments
+
+======================
+
+2016-10-17--17:39:53 exceRpt_smallRNA: Assigning and sorting reads:
+
+2016-10-17--17:39:53 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar ProcessEndogenousAlignments --libPriority miRNA,tRNA,piRNA,gencode,circRNA --genomeMappedReads /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeMapped_transcriptome_Aligned.out.bam --transcriptomeMappedReads /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeUnmapped_transcriptome_Aligned.out.bam --hairpin2genome /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/miRNA_precursor2genome.sam --mature2hairpin /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/miRNA_mature2precursor.sam --dict /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_Accepted.dict 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log | sort -k 2,2 -k 1,1 > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_Accepted.txt
+
+2016/10/17 17:39:53 Using default library priorities: miRNA > tRNA > piRNA > gencode > circRNA
+2016/10/17 17:39:53 Reading miRNA annotation info
+2016/10/17 17:39:54 Processing RNA-seq alignments
+2016/10/17 17:39:54 Processing transcriptome alignments for genome-mapped reads...
+2016/10/17 17:43:20 Processing transcriptome alignments for genome-UNmapped reads...
+2016/10/17 17:43:33 Done!
+2016-10-17--17:43:43 exceRpt_smallRNA: Finished assigning and sorting reads
+
+2016-10-17--17:43:43 exceRpt_smallRNA: If requested, downsampling to NULL transcriptome alignments:
+
+2016-10-17--17:43:43 exceRpt_smallRNA: 
+
+2016-10-17--17:43:43 exceRpt_smallRNA: Finished downsampling transcriptome alignments
+
+2016-10-17--17:43:43 exceRpt_smallRNA: Quantifying:
+
+2016-10-17--17:43:43 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar QuantifyEndogenousAlignments --dict /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_Accepted.dict --acceptedAlignments /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_Accepted.txt --outputPath /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq
+
+2016/10/17 17:43:43 Reading alignments in: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_Accepted.txt
+2016/10/17 17:43:43 Using alignment dictionary: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_Accepted.dict
+2016/10/17 17:43:43 Writing results to: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq
+2016/10/17 17:43:43 Reading alignment dictionary...
+2016/10/17 17:43:44 Reading alignments...
+2016/10/17 17:44:20  - Read alignments for 222871 insert sequences
+2016/10/17 17:44:20 Writing read counts...
+2016/10/17 17:44:20 Done!
+======================
+
+2016-10-17--17:44:33 exceRpt_smallRNA: Mapping reads to repetitive elements in the host genome:
+
+2016-10-17--17:44:33 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_repetitiveElements_ --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/STAR_INDEX_repetitiveElements --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeUnmapped_transcriptome_Unmapped.R1.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Oct 17 17:44:33 ..... Started STAR run
+Oct 17 17:44:33 ..... Loading genome
+Oct 17 17:44:54 ..... Started mapping
+Oct 17 19:12:09 ..... Finished successfully
+2016-10-17--19:12:10 exceRpt_smallRNA: Finished mapping to repetitive elements in the host genome
+
+======================
+
+2016-10-17--19:12:30 exceRpt_smallRNA: Aligning remaining reads to the genome allowing gaps 
+
+2016-10-17--19:12:30 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeGapped_ --alignIntronMax 0 --alignIntronMin 21 --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/hg19/STAR_INDEX_genome --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_repetitiveElements_Unmapped.R1.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Endogenous_smallRNA.in --alignEndsType Local --outFilterMatchNmin 18 --outFilterMatchNminOverLread 0.9 --outFilterMismatchNmax 1 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Oct 17 19:12:30 ..... Started STAR run
+Oct 17 19:12:30 ..... Loading genome
+Oct 17 19:12:45 ..... Started mapping
+Oct 17 19:13:16 ..... Finished successfully
+2016-10-17--19:13:16 exceRpt_smallRNA: Finished aligning remaining reads to the genome allowing gaps
+
+======================
+
+2016-10-17--19:13:33 exceRpt_smallRNA: Mapping reads to all miRNAs in miRBase:
+
+2016-10-17--19:13:33 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_miRNA/exogenous_miRBase_ --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/miRBase/STAR_INDEX_miRBaseAll --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/endogenousAlignments_genomeGapped_Unmapped.R1.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/STAR_Parameters_Exogenous.in --outSAMtype BAM Unsorted --outSAMattributes Standard --alignEndsType EndToEnd --outFilterMatchNmin 18 --outFilterMatchNminOverLread 1.0 --outFilterMismatchNmax 0 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.err
+
+Oct 17 19:13:33 ..... Started STAR run
+Oct 17 19:13:33 ..... Loading genome
+Oct 17 19:13:33 ..... Started mapping
+Oct 17 19:13:52 ..... Finished successfully
+2016-10-17--19:13:52 exceRpt_smallRNA: Finished mapping to all miRNAs in miRBase
+
+2016-10-17--19:14:09 exceRpt_smallRNA: Assigning reads:
+
+2016/10/17 19:14:09 Using default library priorities: miRNA > tRNA > piRNA > gencode > circRNA
+2016/10/17 19:14:09 Reading miRNA annotation info
+2016/10/17 19:14:14 Processing RNA-seq alignments
+2016/10/17 19:14:14 Processing transcriptome alignments for genome-UNmapped reads...
+2016/10/17 19:14:14 Done!
+2016/10/17 19:14:15 Reading alignments in: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_miRNA/exogenousAlignments_Accepted.txt
+2016/10/17 19:14:15 Using alignment dictionary: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_miRNA/exogenousAlignments_Accepted.dict
+2016/10/17 19:14:15 Writing results to: /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_miRNA
+2016/10/17 19:14:15 Reading alignment dictionary...
+2016/10/17 19:14:15 Reading alignments...
+2016/10/17 19:14:15  - Read alignments for 235 insert sequences
+2016/10/17 19:14:15 Writing read counts...
+2016/10/17 19:14:15 Done!
+2016-10-17--19:14:15 exceRpt_smallRNA: Finished assigning reads
+
+======================
+
+2016-10-17--19:14:15 exceRpt_smallRNA: Mapping reads to rRNA sequences in RDP (a.k.a. ribosome DB):
+
+2016-10-17--19:14:15 exceRpt_smallRNA: STAR --runThreadN 8 --outFileNamePrefix /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_rRNA/exogenous_rRNA_ --genomeDir /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/ribosomeDatabase/exogenous_rRNAs --readFilesIn /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_miRNA/exogenous_miRBase_Unmapped.R1.fastq.gz --outReadsUnmapped Fastx --parametersFiles /opt/STAR/2.4.2a/indexes/STAR_Parameters_Exogenous.in --outSAMtype BAM Unsorted --outSAMattributes Standard --alignEndsType EndToEnd --outFilterMatchNmin 18 --outFilterMatchNminOverLread 1.0 --outFilterMismatchNmax 0 --outFilterMismatchNoverLmax 0.3  >> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+
+Oct 17 19:14:15 ..... Started STAR run
+Oct 17 19:14:15 ..... Loading genome
+Oct 17 19:14:43 ..... Started mapping
+Oct 17 20:01:14 ..... Finished successfully
+2016-10-17--20:01:31 exceRpt_smallRNA: Finished mapping to rRNA sequences in RDP
+
+======================
+
+2016-10-17--20:01:31 exceRpt_smallRNA: Resolving and quantifying rRNA alignments
+
+
+2016-10-17--20:01:31 exceRpt_smallRNA: samtools view /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_rRNA/exogenous_rRNA_Aligned.out.bam | awk '{print ,,,,0}' | sort -k 1,1 -k 2,2 | uniq > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_rRNA/ExogenousRibosomalAlignments.txt 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+
+
+2016-10-17--20:01:35 exceRpt_smallRNA: java -Xmx30G -jar /opt/exceRptPipeline/4_prod/exceRpt_Tools.jar ProcessExogenousAlignments -taxonomyPath /opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/NCBI_taxonomy_taxdump -min 0.001 -frac 0.95 --minReads 3 -batchSize 20000 -alignments /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_rRNA/ExogenousRibosomalAlignments.txt --rdp > /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_rRNA/ExogenousRibosomalAlignments.tmp 2>> /scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq.log
+
+2016/10/17 20:01:35  Summarising alignments in: '/scratch/wbJob-runExceRpt-ADd5ZA-9529/sample_GBM2_exosome_clean_fq/EXOGENOUS_rRNA/ExogenousRibosomalAlignments.txt'
+2016/10/17 20:01:35              in batches of: 20000 reads
+2016/10/17 20:01:35          using taxonomy in: '/opt/exceRptPipeline/4_prod/exceRptDB_v4/DATABASE/NCBI_taxonomy_taxdump', minFraction=0.95, top-down:false, for alignments above 0.0010% of total reads
+2016/10/17 20:01:35  Reading taxonomy: node names
+2016/10/17 20:01:50  Reading taxonomy: node hierarchy
+2016/10/17 20:01:54  Reading alignments...
+2016/10/17 20:11:06  Processing alignments in batch 1
+2016/10/17 20:11:06   - Detected 546077 possible species from 20000 aligned reads (minReads=0)
+2016/10/17 20:20:21   - Done. Suppressed 0 total reads (0.0% of input reads) due to minimum read requirement.
+2016/10/17 20:20:21  Reading alignments...
+2016/10/17 20:22:25  Processing alignments in batch 2
+2016/10/17 20:22:25   - Detected 523516 possible species from 5553 aligned reads (minReads=0)
+2016/10/17 20:26:00   - Done. Suppressed 0 total reads (0.0% of input reads) due to minimum read requirement.
+2016/10/17 20:26:00  Reading alignments...
+2016/10/17 20:26:00  Quantifying
+2016/10/17 20:26:00  Done
+2016-10-17--20:26:01 exceRpt_smallRNA: Finished resolving and quantifying rRNA alignments
+
+2016-10-17--20:26:01 exceRpt_smallRNA: END smallRNA-seq Pipeline for sample sample_GBM2_exosome_clean_fq
+======================
+

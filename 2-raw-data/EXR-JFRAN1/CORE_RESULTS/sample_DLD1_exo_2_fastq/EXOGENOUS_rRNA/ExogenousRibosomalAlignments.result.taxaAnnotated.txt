@@ -1,0 +1,1394 @@
+depth	level	ID	parentID	name	readCount_direct	readCount_inherited
+0	no rank	1	-1	root	499	154551
+1	no rank	12908	1	unclassified sequences	0	86
+2	no rank	151659	12908	environmental samples	0	86
+3	no rank	81490	151659	prokaryotic environmental samples	0	10
+4	species	198431	81490	uncultured prokaryote	10	0
+3	species	155900	151659	uncultured organism	76	0
+1	no rank	131567	1	cellular organisms	1110	153355
+2	superkingdom	2	131567	Bacteria	1031	11476
+3	phylum	1117	2	Cyanobacteria	166	71
+4	no rank	34079	1117	unclassified Cyanobacteria	20	0
+4	no rank	48504	1117	environmental samples	0	19
+5	species	1211	48504	uncultured cyanobacterium	19	0
+4	subclass	1301283	1117	Oscillatoriophycideae	1	28
+5	order	1118	1301283	Chroococcales	3	19
+6	genus	1125	1118	Microcystis	1	14
+7	species	1126	1125	Microcystis aeruginosa	3	11
+8	no rank	285035	1126	Microcystis aeruginosa UTEX 'LB 2385'	0	11
+9	no rank	1296356	285035	Microcystis aeruginosa CCAP 1450/12	11	0
+5	order	1150	1301283	Oscillatoriales	0	6
+6	genus	1198	1150	Phormidium	0	4
+7	species	1397097	1198	Phormidium sp. 04156_00002	4	0
+3	phylum	1224	2	Proteobacteria	617	5136
+4	class	1236	1224	Gammaproteobacteria	119	520
+5	no rank	50423	1236	environmental samples	0	3
+6	species	86473	50423	uncultured gamma proteobacterium	3	0
+5	order	72273	1236	Thiotrichales	0	7
+6	family	34064	72273	Francisellaceae	0	4
+7	genus	262	34064	Francisella	4	0
+6	family	135617	72273	Thiotrichaceae	0	3
+5	order	72274	1236	Pseudomonadales	2	113
+6	family	468	72274	Moraxellaceae	0	17
+7	genus	469	468	Acinetobacter	4	3
+7	genus	212791	468	Enhydrobacter	9	0
+6	family	135621	72274	Pseudomonadaceae	2	94
+7	genus	286	135621	Pseudomonas	69	19
+8	species group	136843	286	Pseudomonas fluorescens group	0	10
+9	species	294	136843	Pseudomonas fluorescens	10	0
+7	no rank	190017	135621	unclassified Pseudomonadaceae	6	0
+5	order	91347	1236	Enterobacteriales	0	45
+6	family	543	91347	Enterobacteriaceae	3	42
+7	genus	122277	543	Pectobacterium	0	30
+8	no rank	228953	122277	environmental samples	0	30
+9	species	228954	228953	uncultured Pectobacterium sp.	30	0
+7	no rank	191675	543	unclassified Enterobacteriaceae	0	5
+8	no rank	84563	191675	ant, tsetse, mealybug, aphid, etc. endosymbionts	0	5
+5	no rank	118884	1236	unclassified Gammaproteobacteria	229	0
+5	order	118969	1236	Legionellales	0	7
+6	family	444	118969	Legionellaceae	0	5
+7	genus	445	444	Legionella	4	1
+5	order	135614	1236	Xanthomonadales	0	78
+6	family	32033	135614	Xanthomonadaceae	50	27
+7	genus	338	32033	Xanthomonas	0	20
+8	species	343	338	Xanthomonas translucens	20	0
+5	order	135618	1236	Methylococcales	0	8
+6	family	403	135618	Methylococcaceae	3	5
+7	genus	429	403	Methylobacter	5	0
+5	order	135619	1236	Oceanospirillales	0	3
+5	order	135625	1236	Pasteurellales	0	4
+6	family	712	135625	Pasteurellaceae	0	4
+7	genus	217201	712	Terrahaemophilus	0	3
+8	no rank	303391	217201	environmental samples	0	3
+9	species	303392	303391	uncultured Terrahaemophilus sp.	3	0
+5	order	225057	1236	Acidithiobacillales	0	13
+6	family	225058	225057	Acidithiobacillaceae	0	13
+7	genus	119977	225058	Acidithiobacillus	13	0
+5	order	1706369	1236	Cellvibrionales	0	3
+4	class	28211	1224	Alphaproteobacteria	82	133
+5	order	356	28211	Rhizobiales	6	23
+6	family	41294	356	Bradyrhizobiaceae	2	3
+7	genus	374	41294	Bradyrhizobium	3	0
+6	family	45401	356	Hyphomicrobiaceae	2	3
+6	no rank	119042	356	unclassified Rhizobiales	8	0
+5	order	766	28211	Rickettsiales	0	14
+6	family	775	766	Rickettsiaceae	2	6
+7	tribe	33988	775	Rickettsieae	0	4
+5	no rank	47925	28211	environmental samples	0	5
+6	species	91750	47925	uncultured alpha proteobacterium	5	0
+5	order	54526	28211	Pelagibacterales	0	6
+6	no rank	54532	54526	environmental samples	0	3
+7	species	309857	54532	uncultured SAR11 cluster alpha proteobacterium	3	0
+6	family	1655514	54526	Pelagibacteraceae	0	3
+7	genus	198251	1655514	Candidatus Pelagibacter	3	0
+5	no rank	82117	28211	unclassified Alphaproteobacteria	15	20
+6	no rank	33807	82117	unclassified Alphaproteobacteria (miscellaneous)	20	0
+5	order	204441	28211	Rhodospirillales	1	9
+6	family	433	204441	Acetobacteraceae	1	4
+7	no rank	41293	433	unclassified Acetobacteraceae	3	0
+5	order	204455	28211	Rhodobacterales	0	6
+6	family	31989	204455	Rhodobacteraceae	1	5
+5	order	204457	28211	Sphingomonadales	0	25
+6	family	41297	204457	Sphingomonadaceae	5	19
+7	genus	13687	41297	Sphingomonas	4	5
+8	species	1609977	13687	Sphingomonas sp. WHSC-8	4	0
+7	no rank	41298	41297	unclassified Sphingomonadaceae	0	3
+8	no rank	122612	41298	unclassified Sphingomonadaceae (miscellaneous)	3	0
+7	genus	165696	41297	Novosphingobium	3	1
+5	order	204458	28211	Caulobacterales	0	3
+4	class	28216	1224	Betaproteobacteria	230	3372
+5	no rank	47926	28216	environmental samples	0	12
+6	species	86027	47926	uncultured beta proteobacterium	12	0
+5	order	80840	28216	Burkholderiales	1307	1781
+6	family	506	80840	Alcaligenaceae	2	6
+6	family	75682	80840	Oxalobacteraceae	5	19
+7	genus	29580	75682	Janthinobacterium	6	0
+7	no rank	119059	75682	unclassified Oxalobacteraceae	9	0
+7	genus	149698	75682	Massilia	3	0
+6	family	80864	80840	Comamonadaceae	293	95
+7	genus	12916	80864	Acidovorax	8	0
+7	genus	34072	80864	Variovorax	4	2
+7	genus	47420	80864	Hydrogenophaga	7	3
+8	species	795665	47420	Hydrogenophaga sp. PBC	3	0
+7	no rank	83494	80864	unclassified Comamonadaceae	22	0
+7	genus	238749	80864	Diaphorobacter	5	0
+7	genus	281915	80864	Curvibacter	11	4
+8	no rank	326293	281915	environmental samples	0	4
+9	species	326294	326293	uncultured Curvibacter sp.	4	0
+7	genus	335058	80864	Pelomonas	3	0
+7	genus	352450	80864	Simplicispira	3	0
+7	genus	665874	80864	Limnohabitans	11	0
+6	family	119060	80840	Burkholderiaceae	0	65
+7	genus	32008	119060	Burkholderia	28	35
+8	no rank	77118	32008	environmental samples	0	35
+9	species	188058	77118	uncultured Burkholderia sp.	35	0
+6	no rank	119065	80840	unclassified Burkholderiales	1216	78
+7	no rank	224471	119065	Burkholderiales Genera incertae sedis	8	70
+8	genus	88	224471	Leptothrix	4	0
+8	genus	92793	224471	Aquabacterium	15	46
+9	no rank	158752	92793	environmental samples	0	46
+10	species	158753	158752	uncultured Aquabacterium sp.	46	0
+8	genus	212743	224471	Rhizobacter	3	1
+5	no rank	119066	28216	unclassified Betaproteobacteria	94	86
+6	genus	33055	119066	Kinetoplastibacterium	0	10
+7	species	233181	33055	Kinetoplastibacterium blastocrithidii	10	0
+6	no rank	33809	119066	unclassified Betaproteobacteria (miscellaneous)	76	0
+5	order	206350	28216	Methylophilales	0	4
+5	order	206351	28216	Neisseriales	0	3
+5	order	206389	28216	Rhodocyclales	0	85
+6	family	75787	206389	Rhodocyclaceae	15	70
+7	genus	349	75787	Zoogloea	8	0
+7	genus	73029	75787	Dechloromonas	0	54
+8	species	188737	73029	Dechloromonas sp. HZ	53	0
+7	genus	88875	75787	Ferribacterium	3	1
+4	no rank	32045	1224	unclassified Proteobacteria	353	0
+4	no rank	47936	1224	environmental samples	0	14
+5	species	153809	47936	uncultured proteobacterium	14	0
+4	subphylum	68525	1224	delta/epsilon subdivisions	0	312
+5	class	28221	68525	Deltaproteobacteria	64	239
+6	order	29	28221	Myxococcales	12	96
+7	suborder	80811	29	Cystobacterineae	2	10
+8	family	39	80811	Cystobacteraceae	0	9
+9	no rank	1028513	39	unclassified Cystobacteraceae	9	0
+7	suborder	80812	29	Sorangiineae	30	47
+8	family	49	80812	Polyangiaceae	1	18
+9	genus	39643	49	Sorangium	0	7
+10	no rank	491147	39643	environmental samples	0	7
+11	species	491148	491147	uncultured Sorangium sp.	7	0
+9	no rank	80814	49	unclassified Polyangiaceae	0	11
+10	species	80815	80814	myxobacterium SHI-1	11	0
+8	no rank	215910	80812	unclassified Sorangiineae	28	0
+7	no rank	83463	29	unclassified Myxococcales	6	0
+6	no rank	34033	28221	environmental samples	0	24
+7	species	34034	34033	uncultured delta proteobacterium	24	0
+6	no rank	45456	28221	unclassified Deltaproteobacteria	24	3
+7	no rank	131190	45456	SAR324 cluster	0	3
+8	no rank	424750	131190	SAR276 cluster	0	3
+9	no rank	424751	424750	environmental samples	0	3
+10	species	424755	424751	uncultured SAR276 cluster bacterium	3	0
+6	order	69541	28221	Desulfuromonadales	2	5
+6	order	213115	28221	Desulfovibrionales	0	6
+7	family	194924	213115	Desulfovibrionaceae	0	4
+8	genus	872	194924	Desulfovibrio	1	3
+6	order	213481	28221	Bdellovibrionales	0	63
+7	family	213483	213481	Bdellovibrionaceae	0	63
+8	genus	958	213483	Bdellovibrio	60	1
+5	class	29547	68525	Epsilonproteobacteria	2	7
+6	order	213849	29547	Campylobacterales	1	6
+7	family	72293	213849	Helicobacteraceae	0	3
+7	no rank	438853	213849	unclassified Campylobacterales	3	0
+3	phylum	1239	2	Firmicutes	18	563
+4	no rank	47928	1239	environmental samples	0	8
+5	species	344338	47928	uncultured Firmicutes bacterium	8	0
+4	class	91061	1239	Bacilli	3	148
+5	order	1385	91061	Bacillales	2	127
+6	family	90964	1385	Staphylococcaceae	0	4
+7	genus	1279	90964	Staphylococcus	3	1
+6	family	186817	1385	Bacillaceae	1	113
+7	genus	1386	186817	Bacillus	0	111
+8	no rank	65119	1386	environmental samples	0	83
+9	species	83428	65119	uncultured Bacillus sp.	83	0
+8	species group	86661	1386	Bacillus cereus group	0	25
+9	species	1396	86661	Bacillus cereus	22	0
+9	species	1428	86661	Bacillus thuringiensis	3	0
+6	family	186822	1385	Paenibacillaceae	2	5
+7	genus	44249	186822	Paenibacillus	1	4
+5	order	186826	91061	Lactobacillales	0	19
+6	family	1300	186826	Streptococcaceae	0	4
+7	genus	1301	1300	Streptococcus	3	1
+6	family	33958	186826	Lactobacillaceae	0	4
+7	genus	1578	33958	Lactobacillus	3	0
+6	family	186828	186826	Carnobacteriaceae	0	10
+7	no rank	349921	186828	environmental samples	0	8
+8	species	349922	349921	uncultured Carnobacteriaceae bacterium	8	0
+4	class	186801	1239	Clostridia	0	381
+5	order	53433	186801	Halanaerobiales	0	4
+6	family	972	53433	Halanaerobiaceae	0	4
+7	genus	2330	972	Halanaerobium	4	0
+5	order	186802	186801	Clostridiales	38	339
+6	family	186803	186802	Lachnospiraceae	4	11
+7	no rank	186928	186803	unclassified Lachnospiraceae	11	0
+6	family	186806	186802	Eubacteriaceae	0	12
+7	genus	1730	186806	Eubacterium	9	2
+6	family	186807	186802	Peptococcaceae	0	197
+7	genus	36853	186807	Desulfitobacterium	0	197
+8	species	49338	36853	Desulfitobacterium hafniense	197	0
+6	no rank	186813	186802	unclassified Clostridiales	4	0
+6	family	541000	186802	Ruminococcaceae	2	101
+7	genus	216851	541000	Faecalibacterium	0	43
+8	species	853	216851	Faecalibacterium prausnitzii	0	43
+9	no rank	657322	853	Faecalibacterium prausnitzii SL3/3	43	0
+7	no rank	552397	541000	unclassified Ruminococcaceae	55	0
+6	family	1570339	186802	Peptoniphilaceae	0	4
+7	genus	162289	1570339	Peptoniphilus	4	0
+4	class	909932	1239	Negativicutes	0	18
+5	order	909929	909932	Selenomonadales	2	16
+6	family	31977	909929	Veillonellaceae	3	13
+7	no rank	42214	31977	unclassified Veillonellaceae	9	0
+4	no rank	1394757	1239	unclassified Firmicutes	4	0
+3	phylum	1297	2	Deinococcus-Thermus	0	12
+4	class	188787	1297	Deinococci	0	12
+5	order	68933	188787	Thermales	0	4
+6	family	188786	68933	Thermaceae	0	4
+7	genus	65551	188786	Meiothermus	4	0
+5	order	118964	188787	Deinococcales	0	8
+6	family	183710	118964	Deinococcaceae	3	5
+7	genus	1298	183710	Deinococcus	5	0
+3	no rank	2323	2	unclassified Bacteria	975	113
+4	no rank	49928	2323	unclassified Bacteria (miscellaneous)	0	6
+4	phylum	95818	2323	Candidatus Saccharibacteria	4	4
+5	species	713050	95818	TM7 phylum sp. oral taxon 347	4	0
+4	phylum	221216	2323	Parcubacteria	0	6
+5	no rank	1046984	221216	unclassified Parcubacteria	6	0
+4	no rank	292449	2323	candidate division JS1	0	90
+5	no rank	292450	292449	environmental samples	0	90
+6	species	292451	292450	uncultured candidate division JS1 bacterium	90	0
+3	phylum	32066	2	Fusobacteria	0	12
+4	class	203490	32066	Fusobacteriia	0	12
+5	order	203491	203490	Fusobacteriales	0	12
+6	family	203492	203491	Fusobacteriaceae	0	5
+7	genus	848	203492	Fusobacterium	5	0
+6	family	1129771	203491	Leptotrichiaceae	0	7
+7	genus	32067	1129771	Leptotrichia	0	7
+8	no rank	135058	32067	environmental samples	0	7
+9	species	159271	135058	uncultured Leptotrichia sp.	7	0
+3	no rank	48479	2	environmental samples	0	23
+4	species	56765	48479	uncultured marine bacterium	3	0
+4	species	164851	48479	uncultured soil bacterium	12	0
+3	superphylum	51290	2	Chlamydiae/Verrucomicrobia group	1	154
+4	phylum	74201	51290	Verrucomicrobia	75	67
+5	no rank	74202	74201	environmental samples	15	8
+6	species	156588	74202	uncultured Verrucomicrobia bacterium	6	0
+5	class	203494	74201	Verrucomicrobiae	0	35
+6	order	48461	203494	Verrucomicrobiales	2	32
+7	no rank	48468	48461	environmental samples	0	3
+8	species	100234	48468	uncultured Verrucomicrobiales bacterium	3	0
+7	family	203557	48461	Verrucomicrobiaceae	1	28
+8	genus	48463	203557	Prosthecobacter	14	0
+8	no rank	490346	203557	unclassified Verrucomicrobiaceae	11	0
+5	class	414999	74201	Opitutae	0	5
+6	order	415000	414999	Opitutales	0	4
+7	family	134623	415000	Opitutaceae	4	0
+4	phylum	204428	51290	Chlamydiae	0	7
+5	class	204429	204428	Chlamydiia	0	7
+6	order	51291	204429	Chlamydiales	2	5
+4	phylum	256845	51290	Lentisphaerae	0	5
+5	class	1313211	256845	Lentisphaeria	0	5
+6	order	278081	1313211	Lentisphaerales	0	5
+7	family	566277	278081	Lentisphaeraceae	0	5
+8	genus	256846	566277	Lentisphaera	5	0
+3	phylum	67819	2	Armatimonadetes	15	22
+4	class	1042312	67819	Armatimonadia	0	15
+5	order	1042313	1042312	Armatimonadales	0	15
+6	family	1042314	1042313	Armatimonadaceae	15	0
+4	class	1077257	67819	Chthonomonadetes	0	7
+5	order	1077263	1077257	Chthonomonadales	0	7
+6	family	1077264	1077263	Chthonomonadaceae	0	7
+7	genus	1077265	1077264	Chthonomonas	0	7
+8	species	454171	1077265	Chthonomonas calidirosea	0	7
+9	no rank	1303518	454171	Chthonomonas calidirosea T49	7	0
+3	superphylum	68336	2	Bacteroidetes/Chlorobi group	0	1597
+4	phylum	976	68336	Bacteroidetes	285	1312
+5	no rank	50742	976	environmental samples	0	41
+6	species	152509	50742	uncultured Bacteroidetes bacterium	41	0
+5	class	117743	976	Flavobacteriia	0	833
+6	order	200644	117743	Flavobacteriales	4	829
+7	family	49546	200644	Flavobacteriaceae	67	754
+8	genus	237	49546	Flavobacterium	119	568
+9	no rank	89279	237	environmental samples	0	7
+10	species	165435	89279	uncultured Flavobacterium sp.	7	0
+9	species	96345	237	Flavobacterium psychrophilum	554	5
+10	no rank	1452724	96345	Flavobacterium psychrophilum FPG3	5	0
+8	genus	59732	49546	Chryseobacterium	4	0
+8	no rank	61432	49546	unclassified Flavobacteriaceae	11	0
+8	genus	283735	49546	Leeuwenhoekiella	0	42
+9	species	988	283735	Leeuwenhoekiella marinoflava	0	42
+10	no rank	1122159	988	Leeuwenhoekiella marinoflava DSM 3653	42	0
+8	genus	501783	49546	Cloacibacterium	4	0
+7	family	246874	200644	Cryomorphaceae	0	6
+8	genus	332102	246874	Fluviicola	4	0
+5	class	117747	976	Sphingobacteriia	0	125
+6	order	200666	117747	Sphingobacteriales	8	117
+7	family	89374	200666	Saprospiraceae	3	65
+8	genus	2349	89374	Haliscomenobacter	17	0
+8	no rank	234684	89374	unclassified Saprospiraceae	44	0
+7	no rank	117769	200666	environmental samples	0	5
+8	species	212696	117769	uncultured Sphingobacteriales bacterium	3	0
+7	family	563835	200666	Chitinophagaceae	8	18
+8	genus	504481	563835	Sediminibacterium	7	0
+8	no rank	569836	563835	unclassified Chitinophagaceae	8	0
+7	no rank	1159429	200666	unclassified Sphingobacteriales	0	14
+8	no rank	203473	1159429	unclassified Sphingobacteriales (miscellaneous)	14	0
+5	no rank	171558	976	unclassified Bacteroidetes	4	238
+6	no rank	37452	171558	unclassified Bacteroidetes (miscellaneous)	237	0
+5	class	200643	976	Bacteroidia	0	25
+6	order	171549	200643	Bacteroidales	1	24
+7	family	171551	171549	Porphyromonadaceae	1	7
+8	genus	346096	171551	Paludibacter	4	0
+7	family	171552	171549	Prevotellaceae	0	3
+7	no rank	333046	171549	unclassified Bacteroidales	7	0
+5	class	768503	976	Cytophagia	0	43
+6	order	768507	768503	Cytophagales	2	41
+7	family	89373	768507	Cytophagaceae	3	34
+8	genus	89966	89373	Hymenobacter	3	0
+8	no rank	95759	89373	environmental samples	0	21
+9	species	239735	95759	uncultured Flexibacteraceae bacterium	21	0
+8	genus	217140	89373	Arcicella	4	0
+7	no rank	1124781	768507	unclassified Cytophagales	4	0
+5	order	1100069	976	Bacteroidetes Order II. Incertae sedis	0	3
+6	family	563843	1100069	Rhodothermaceae	0	3
+7	genus	146918	563843	Salinibacter	3	0
+3	superphylum	131550	2	Fibrobacteres/Acidobacteria group	0	152
+4	phylum	57723	131550	Acidobacteria	130	22
+5	no rank	57727	57723	environmental samples	0	17
+6	species	171953	57727	uncultured Acidobacteria bacterium	17	0
+5	no rank	458031	57723	unclassified Acidobacteria	0	4
+6	no rank	305072	458031	unclassified Acidobacteria (miscellaneous)	4	0
+3	phylum	200795	2	Chloroflexi	10	46
+4	no rank	58229	200795	environmental samples	0	4
+5	species	166587	58229	uncultured Chloroflexi bacterium	4	0
+4	no rank	167963	200795	unclassified Chloroflexi	14	0
+4	class	292625	200795	Anaerolineae	0	6
+5	order	292629	292625	Anaerolineales	0	5
+6	family	292628	292629	Anaerolineaceae	0	5
+7	no rank	1324991	292628	unclassified Anaerolineaceae	5	0
+4	class	301297	200795	Dehalococcoidia	0	5
+5	order	1202465	301297	Dehalococcoidales	0	4
+6	family	1202464	1202465	Dehalococcoidaceae	0	4
+7	genus	61434	1202464	Dehalococcoides	0	4
+8	no rank	171951	61434	environmental samples	0	4
+9	species	171952	171951	uncultured Dehalococcoides sp.	4	0
+4	class	475962	200795	Caldilineae	0	16
+5	order	475963	475962	Caldilineales	0	16
+6	family	475964	475963	Caldilineaceae	8	8
+7	genus	1215913	475964	Litorilinea	8	0
+3	phylum	201174	2	Actinobacteria	2	472
+4	class	1760	201174	Actinobacteria	30	438
+5	order	2037	1760	Actinomycetales	0	282
+6	no rank	38987	2037	unclassified Actinomycetales	0	281
+7	no rank	105426	38987	unclassified Actinomycetales (miscellaneous)	281	0
+5	no rank	35766	1760	environmental samples	0	19
+6	species	152507	35766	uncultured actinobacterium	19	0
+5	no rank	52018	1760	unclassified Actinobacteria	0	5
+6	no rank	78537	52018	unclassified Actinobacteria (miscellaneous)	5	0
+5	order	85006	1760	Micrococcales	0	101
+6	family	1268	85006	Micrococcaceae	1	19
+7	genus	1663	1268	Arthrobacter	3	5
+8	species	1665	1663	Arthrobacter globiformis	0	5
+9	no rank	1077972	1665	Arthrobacter globiformis NBRC 12137	5	0
+7	genus	57493	1268	Kocuria	0	7
+8	species	72000	57493	Kocuria rhizophila	7	0
+6	family	85016	85006	Cellulomonadaceae	0	5
+7	genus	1707	85016	Cellulomonas	3	2
+6	family	85023	85006	Microbacteriaceae	1	59
+7	genus	1573	85023	Clavibacter	0	45
+8	no rank	127780	1573	environmental samples	0	45
+9	species	378178	127780	uncultured Clavibacter sp.	45	0
+7	genus	33882	85023	Microbacterium	8	0
+7	no rank	90316	85023	unclassified Microbacteriaceae	5	0
+6	no rank	577468	85006	unclassified Micrococcineae	0	13
+7	no rank	99482	577468	unclassified Micrococcineae (miscellaneous)	0	11
+8	species	1200078	99482	Micrococcineae bacterium LDB-B197	11	0
+5	order	85007	1760	Corynebacteriales	1	9
+6	family	1653	85007	Corynebacteriaceae	0	8
+7	genus	1716	1653	Corynebacterium	8	0
+5	order	85009	1760	Propionibacteriales	0	5
+6	family	31957	85009	Propionibacteriaceae	0	5
+7	genus	1743	31957	Propionibacterium	4	1
+5	order	85013	1760	Frankiales	0	13
+6	family	74712	85013	Frankiaceae	0	13
+7	genus	1854	74712	Frankia	12	1
+4	class	84992	201174	Acidimicrobiia	0	3
+5	order	84993	84992	Acidimicrobiales	0	3
+6	family	84994	84993	Acidimicrobiaceae	0	3
+7	genus	682522	84994	Ilumatobacter	3	0
+3	phylum	203682	2	Planctomycetes	9	1258
+4	class	203683	203682	Planctomycetia	0	1257
+5	order	112	203683	Planctomycetales	252	1005
+6	family	126	112	Planctomycetaceae	425	529
+7	genus	113	126	Gemmata	142	3
+7	genus	118	126	Planctomyces	20	0
+7	genus	123	126	Pirellula	10	0
+7	no rank	69476	126	unclassified Planctomycetaceae	314	1
+7	genus	265487	126	Blastopirellula	3	0
+7	genus	466152	126	Singulisphaera	0	7
+8	no rank	651289	466152	environmental samples	0	7
+9	species	651290	651289	uncultured Singulisphaera sp.	7	0
+7	genus	600332	126	Zavarzinella	15	0
+7	genus	656899	126	Schlesneria	11	0
+6	no rank	40903	112	environmental samples	0	51
+7	species	100371	40903	uncultured Planctomycetales bacterium	7	0
+7	species	120965	40903	uncultured planctomycete	39	0
+7	species	134659	40903	uncultured planctomycete clone34	3	0
+3	phylum	203691	2	Spirochaetes	0	22
+4	class	203692	203691	Spirochaetia	0	22
+5	order	136	203692	Spirochaetales	3	5
+6	family	137	136	Spirochaetaceae	1	4
+5	no rank	1643688	203692	Leptospirales	0	14
+6	family	170	1643688	Leptospiraceae	0	14
+7	genus	171	170	Leptospira	0	4
+8	species	178	171	Leptospira sp.	4	0
+7	genus	338321	170	Turneriella	8	0
+3	phylum	544448	2	Tenericutes	0	5
+4	class	31969	544448	Mollicutes	0	5
+2	superkingdom	2157	131567	Archaea	637	1536
+3	phylum	28889	2157	Crenarchaeota	0	25
+4	no rank	48509	28889	environmental samples	0	20
+5	species	115413	48509	uncultured marine crenarchaeote	18	0
+4	class	183924	28889	Thermoprotei	0	5
+5	order	2281	183924	Sulfolobales	0	5
+6	family	118883	2281	Sulfolobaceae	0	5
+7	genus	12914	118883	Acidianus	0	5
+8	species	315460	12914	Acidianus sp. Acii26	5	0
+3	phylum	28890	2157	Euryarchaeota	0	14
+4	no rank	68359	28890	environmental samples	0	8
+5	species	114243	68359	uncultured euryarchaeote	6	0
+4	class	224756	28890	Methanomicrobia	0	3
+5	order	94695	224756	Methanosarcinales	0	3
+6	family	143067	94695	Methanosaetaceae	0	3
+7	genus	2222	143067	Methanosaeta	0	3
+8	no rank	74261	2222	environmental samples	0	3
+9	species	183756	74261	uncultured Methanosaeta sp.	3	0
+3	no rank	48510	2157	environmental samples	96	101
+4	species	56763	48510	uncultured marine archaeon	3	0
+4	species	115547	48510	uncultured archaeon	98	0
+3	phylum	651137	2157	Thaumarchaeota	0	1300
+4	class	1643678	651137	Nitrososphaeria	0	1299
+5	order	1033996	1643678	Nitrososphaerales	0	1299
+6	family	1033997	1033996	Nitrososphaeraceae	0	1299
+7	genus	497726	1033997	Nitrososphaera	1299	0
+2	superkingdom	2759	131567	Eukaryota	194	138481
+3	kingdom	33090	2759	Viridiplantae	1	183
+4	phylum	3041	33090	Chlorophyta	179	0
+4	phylum	35493	33090	Streptophyta	0	4
+5	no rank	131221	35493	Streptophytina	0	4
+6	no rank	3193	131221	Embryophyta	3	1
+3	no rank	33154	2759	Opisthokonta	1	138060
+4	kingdom	4751	33154	Fungi	4323	133724
+5	phylum	4761	4751	Chytridiomycota	71	3868
+6	no rank	81067	4761	unclassified Chytridiomycota	0	3
+7	species	1105081	81067	Chytridiomycota sp. LLMB5_1 PML-2011q	3	0
+6	no rank	175246	4761	environmental samples	0	43
+7	species	175247	175246	uncultured Chytridiomycota	43	0
+6	class	451435	4761	Chytridiomycetes	116	3626
+7	order	4810	451435	Chytridiales	203	1810
+8	family	4812	4810	Chytridiaceae	0	20
+9	genus	4819	4812	Phlyctochytrium	0	13
+10	species	261098	4819	Phlyctochytrium planicorne	13	0
+9	no rank	335436	4812	environmental samples	0	3
+10	species	1229259	335436	uncultured Chytridium	3	0
+9	genus	1353247	4812	Dendrochytridium	0	4
+10	species	1352835	1353247	Dendrochytridium crassum	4	0
+8	no rank	109868	4810	unclassified Chytridiales	0	62
+9	species	281854	109868	Chytridiales sp. JEL187	62	0
+8	no rank	282510	4810	environmental samples	0	4
+9	species	282511	282510	uncultured Chytridiales	4	0
+8	family	1352827	4810	Chytriomycetaceae	1669	55
+9	genus	64501	1352827	Entophlyctis	0	15
+10	species	281838	64501	Entophlyctis sp. JEL174	15	0
+9	genus	109882	1352827	Chytriomyces	5	15
+10	species	388807	109882	Chytriomyces sp. WB 235A	15	0
+9	genus	110080	1352827	Obelidium	0	18
+10	species	110081	110080	Obelidium mucronatum	18	0
+7	order	34478	451435	Spizellomycetales	0	3
+8	family	1134080	34478	Powellomycetaceae	0	3
+9	genus	109893	1134080	Powellomyces	0	3
+10	species	252690	109893	Powellomyces sp. EA	3	0
+7	no rank	254789	451435	Chytridiomycetes incertae sedis	0	19
+8	family	286113	254789	Synchytriaceae	0	19
+9	genus	286114	286113	Synchytrium	14	5
+10	species	324676	286114	Synchytrium decipiens	4	0
+7	order	451442	451435	Rhizophydiales	6	79
+8	family	451449	451442	Rhizophydiaceae	19	21
+9	genus	60186	451449	Rhizophydium	4	2
+9	no rank	682751	451449	environmental samples	0	15
+10	species	682749	682751	uncultured Rhizophydium	15	0
+8	family	451453	451442	Kappamycetaceae	0	25
+9	genus	261096	451453	Kappamyces	0	5
+10	species	261097	261096	Kappamyces laurelensis	5	0
+9	no rank	1503099	451453	environmental samples	0	20
+10	species	1503100	1503099	uncultured Kappamycetaceae	20	0
+8	no rank	687208	451442	environmental samples	0	3
+9	species	687209	687208	uncultured Rhizophydiales	3	0
+8	family	1167809	451442	Alphamycetaceae	0	8
+9	genus	1167810	1167809	Betamyces	0	8
+10	species	1167812	1167810	Betamyces sp. PL 173	8	0
+7	order	642598	451435	Lobulomycetales	0	4
+8	family	642599	642598	Lobulomycetaceae	3	1
+7	order	642607	451435	Cladochytriales	21	1456
+8	family	64903	642607	Endochytriaceae	0	1450
+9	genus	109937	64903	Endochytrium	5	1445
+10	species	546774	109937	Endochytrium ramosum	1445	0
+8	family	109879	642607	Nowakowskiellaceae	0	6
+9	genus	109880	109879	Nowakowskiella	0	6
+10	species	109881	109880	Nowakowskiella elegans	6	0
+7	order	1134056	451435	Polychytriales	0	15
+8	genus	1134057	1134056	Arkaya	1	7
+9	species	1134059	1134057	Arkaya serpentina	7	0
+8	species	1134072	1134056	cf. Polychytrium sp. JEL598	3	0
+7	order	1486921	451435	Gromochytriales	0	10
+8	family	1486922	1486921	Gromochytriaceae	0	10
+9	genus	1486923	1486922	Gromochytrium	0	10
+10	species	1486924	1486923	Gromochytrium mamkaevae	10	0
+6	class	451454	4761	Monoblepharidomycetes	0	80
+7	order	79272	451454	Monoblepharidales	7	73
+8	family	79273	79272	Monoblepharidaceae	70	0
+5	no rank	57731	4751	environmental samples	50	354
+6	species	167647	57731	uncultured soil fungus	213	0
+6	species	175245	57731	uncultured fungus	108	0
+6	species	224424	57731	uncultured ectomycorrhizal fungus	15	0
+6	species	367745	57731	uncultured compost fungus	4	0
+6	species	419790	57731	uncultured fungal contaminant	14	0
+5	no rank	89443	4751	unclassified Fungi	103	59
+6	species	410823	89443	fungal endophyte	0	4
+7	subspecies	1612019	410823	Fungal endophyte sp1	4	0
+6	species	532567	89443	soil fungal sp. DM2-315	6	0
+6	species	758332	89443	fungal sp. ARIZ AZ0935	6	0
+6	species	1476799	89443	fungal sp. C29 LX-2014	35	0
+5	no rank	112252	4751	Fungi incertae sedis	0	128
+6	subphylum	451507	112252	Mucoromycotina	0	21
+7	order	4827	451507	Mucorales	0	6
+8	family	1344966	4827	Phycomycetaceae	0	3
+9	genus	4836	1344966	Phycomyces	0	3
+10	species	4837	4836	Phycomyces blakesleeanus	3	0
+8	family	1403793	4827	Umbelopsidaceae	0	3
+7	order	4869	451507	Endogonales	0	15
+8	family	4870	4869	Endogonaceae	0	15
+9	genus	4871	4870	Endogone	0	15
+10	species	324621	4871	Endogone lactiflua	14	0
+6	subphylum	451827	112252	Zoopagomycotina	0	23
+7	order	78899	451827	Zoopagales	1	22
+8	family	78903	78899	Piptocephalidaceae	7	3
+8	family	78904	78899	Helicocephalidaceae	0	12
+9	genus	78912	78904	Rhopalomyces	0	12
+10	species	78913	78912	Rhopalomyces elegans	12	0
+6	subphylum	451828	112252	Kickxellomycotina	4	56
+7	order	4861	451828	Kickxellales	0	8
+8	family	4862	4861	Kickxellaceae	0	8
+9	genus	4867	4862	Linderina	0	4
+10	species	61395	4867	Linderina pennispora	4	0
+9	genus	61417	4862	Spiromyces	0	4
+10	species	61418	61417	Spiromyces minutus	4	0
+7	order	61421	451828	Harpellales	1	34
+8	family	4883	61421	Legeriomycetaceae	20	7
+9	genus	4888	4883	Smittium	2	3
+10	species	133412	4888	Smittium culicis	3	0
+8	family	61422	61421	Harpellaceae	0	6
+9	genus	61423	61422	Furculomyces	0	6
+10	species	61424	61423	Furculomyces boomerangus	6	0
+7	order	78918	451828	Dimargaritales	0	13
+8	family	78919	78918	Dimargaritaceae	0	13
+9	genus	78924	78919	Dimargaris	0	13
+10	species	78925	78924	Dimargaris bacillispora	13	0
+6	subphylum	1137986	112252	Mortierellomycotina	0	24
+7	order	214503	1137986	Mortierellales	0	24
+8	family	4854	214503	Mortierellaceae	0	24
+9	genus	4855	4854	Mortierella	18	5
+10	species	281844	4855	Mortierella sp. MS-6	3	0
+5	phylum	214504	4751	Glomeromycota	0	176
+6	class	214506	214504	Glomeromycetes	0	171
+7	order	36750	214506	Glomerales	3	79
+8	family	36751	36750	Glomeraceae	2	76
+9	genus	4875	36751	Glomus	4	6
+10	species	299379	4875	Glomus sp. MUCL 43205	6	0
+9	no rank	231054	36751	environmental samples	0	33
+10	species	839843	231054	uncultured Glomerales	20	0
+10	species	1049725	231054	uncultured Glomeraceae	13	0
+9	genus	1117308	36751	Funneliformis	0	5
+10	species	27381	1117308	Funneliformis mosseae	5	0
+9	genus	1129544	36751	Rhizophagus	0	25
+10	species	4876	1129544	Rhizophagus intraradices	24	0
+9	genus	1144751	36751	Septoglomus	3	0
+7	order	214508	214506	Paraglomerales	0	3
+8	family	144536	214508	Paraglomeraceae	0	3
+9	genus	144537	144536	Paraglomus	0	3
+10	species	144539	144537	Paraglomus occultum	3	0
+7	order	214509	214506	Diversisporales	0	83
+8	family	36753	214509	Gigasporaceae	24	58
+9	genus	4873	36753	Gigaspora	0	58
+10	species	4874	4873	Gigaspora margarita	58	0
+7	order	1133283	214506	Archaeosporales	0	3
+6	no rank	241592	214504	environmental samples	0	5
+7	species	241622	241592	uncultured Glomeromycota	5	0
+5	phylum	451459	4751	Blastocladiomycota	1	84
+6	class	451460	451459	Blastocladiomycetes	0	84
+7	order	4805	451460	Blastocladiales	12	72
+8	family	4806	4805	Blastocladiaceae	1	46
+9	genus	281850	4806	Microallomyces	0	44
+10	species	281851	281850	Microallomyces dendroideus	44	0
+8	family	143958	4805	Coelomomycetaceae	0	23
+9	genus	143959	143958	Coelomomyces	0	23
+10	species	143960	143959	Coelomomyces stegomyiae	23	0
+5	subkingdom	451864	4751	Dikarya	5093	122890
+6	phylum	4890	451864	Ascomycota	13834	108056
+7	no rank	45426	4890	unclassified Ascomycota	40	24
+8	species	36927	45426	Nilaparvata lugens yeast-like symbiont	24	0
+7	no rank	108599	4890	mitosporic Ascomycota	0	74
+8	genus	5043	108599	Acremonium	0	10
+9	species	669095	5043	Acremonium sp. CH019	10	0
+8	no rank	195051	108599	environmental samples	0	5
+9	species	332319	195051	uncultured Acremonium	3	0
+8	genus	213317	108599	Anguillospora	0	52
+9	species	222511	213317	Anguillospora longissima	52	0
+8	genus	941385	108599	Heliocephala	0	4
+9	species	941388	941385	Heliocephala natarajanii	4	0
+7	no rank	136265	4890	environmental samples	0	143
+8	species	175243	136265	uncultured Ascomycota	143	0
+7	subphylum	451866	4890	Taphrinomycotina	0	129
+8	class	147553	451866	Pneumocystidomycetes	0	22
+9	order	37987	147553	Pneumocystidales	0	22
+10	family	44281	37987	Pneumocystidaceae	0	22
+11	genus	4753	44281	Pneumocystis	0	22
+12	species	4754	4753	Pneumocystis carinii	22	0
+8	class	147554	451866	Schizosaccharomycetes	0	98
+9	order	34346	147554	Schizosaccharomycetales	0	98
+10	family	4894	34346	Schizosaccharomycetaceae	0	98
+11	genus	4895	4894	Schizosaccharomyces	34	64
+12	species	4896	4895	Schizosaccharomyces pombe	48	0
+12	species	4897	4895	Schizosaccharomyces japonicus	16	0
+8	class	147556	451866	Neolectomycetes	0	4
+9	order	29823	147556	Neolectales	0	4
+10	family	29824	29823	Neolectaceae	0	4
+11	genus	29825	29824	Neolecta	4	0
+8	class	1075807	451866	Archaeorhizomycetes	0	3
+9	order	1075813	1075807	Archaeorhizomycetales	0	3
+10	family	1075814	1075813	Archaeorhizomycetaceae	0	3
+11	genus	1075815	1075814	Archaeorhizomyces	0	3
+12	species	1472423	1075815	Archaeorhizomyces borealis	3	0
+7	no rank	716545	4890	saccharomyceta	655	106991
+8	subphylum	147537	716545	Saccharomycotina	0	8934
+9	class	4891	147537	Saccharomycetes	0	8934
+10	order	4892	4891	Saccharomycetales	175	8759
+11	family	4893	4892	Saccharomycetaceae	9	79
+12	genus	4910	4893	Kluyveromyces	0	25
+13	species	4911	4910	Kluyveromyces marxianus	25	0
+12	genus	36908	4893	Citeromyces	11	0
+12	genus	71245	4893	Kazachstania	0	4
+13	species	588726	71245	Kazachstania naganishii	0	4
+14	no rank	1071383	588726	Kazachstania naganishii CBS 8797	4	0
+12	genus	374469	4893	Vanderwaltozyma	21	0
+12	genus	1196389	4893	Zygotorulaspora	0	10
+13	species	42260	1196389	Zygotorulaspora mrakii	10	0
+11	family	27319	4892	Metschnikowiaceae	1	15
+12	genus	27320	27319	Metschnikowia	0	11
+13	species	27322	27320	Metschnikowia bicuspidata	11	0
+12	genus	43967	27319	Aciculoconidium	0	4
+13	species	43968	43967	Aciculoconidium aculeatum	4	0
+11	family	29827	4892	Lipomycetaceae	0	4
+12	genus	29828	29827	Lipomyces	1	3
+11	family	34353	4892	Dipodascaceae	0	15
+12	genus	4951	34353	Yarrowia	0	10
+13	species	4952	4951	Yarrowia lipolytica	10	0
+12	no rank	221741	34353	environmental samples	0	4
+13	species	849058	221741	uncultured Yarrowia	4	0
+11	family	115784	4892	Phaffomycetaceae	1	19
+12	genus	83172	115784	Phaffomyces	3	0
+12	genus	599737	115784	Wickerhamomyces	0	14
+13	species	4927	599737	Wickerhamomyces anomalus	12	0
+11	no rank	118267	4892	mitosporic Saccharomycetales	0	29
+12	genus	5475	118267	Candida	12	14
+13	species	49334	5475	Candida sorboxylosa	6	0
+13	species	473117	5475	Candida sp. NRRL Y-27170	4	0
+11	no rank	241407	4892	Saccharomycetales incertae sedis	0	23
+12	genus	75735	241407	Starmerella	0	18
+13	species	75736	75735	Starmerella bombicola	18	0
+12	genus	317045	241407	Kuraishia	0	3
+13	species	317048	317045	Kuraishia molischiana	3	0
+11	family	410830	4892	Trichomonascaceae	2	26
+12	genus	5620	410830	Zygoascus	0	3
+13	species	45509	5620	Zygoascus ofunaensis	3	0
+12	genus	43971	410830	Blastobotrys	9	3
+12	genus	933993	410830	Spencermartinsiella	0	6
+13	species	933994	933993	Spencermartinsiella europaea	6	0
+11	family	766764	4892	Debaryomycetaceae	0	8499
+12	no rank	1535325	766764	Candida/Lodderomyces clade	0	8493
+13	genus	1535326	1535325	Candida	0	8493
+14	species	5476	1535326	Candida albicans	8490	0
+11	family	1156497	4892	Pichiaceae	0	34
+12	genus	4919	1156497	Pichia	17	10
+13	species	473110	4919	Pichia sp. NRRL YB-1305	5	0
+13	species	1246192	4919	Pichia sp. ES179	4	0
+12	genus	13366	1156497	Brettanomyces	0	7
+13	species	13368	13366	Brettanomyces custersianus	5	0
+8	subphylum	147538	716545	Pezizomycotina	65	97992
+9	class	147549	147538	Pezizomycetes	0	8
+10	order	5185	147549	Pezizales	0	8
+11	family	5189	5185	Ascobolaceae	1	4
+12	no rank	364360	5189	environmental samples	0	3
+13	species	403076	364360	uncultured Ascobolus	3	0
+9	class	189478	147538	Orbiliomycetes	0	8
+10	order	189479	189478	Orbiliales	0	8
+11	family	47021	189479	Orbiliaceae	0	7
+12	no rank	54032	47021	mitosporic Orbiliaceae	0	7
+13	genus	47025	54032	Dactylella	0	3
+14	species	313365	47025	Dactylella varietas	3	0
+13	genus	47274	54032	Dactylaria	0	3
+9	no rank	716546	147538	leotiomyceta	63834	34142
+10	class	147545	716546	Eurotiomycetes	19	286
+11	no rank	151555	147545	unclassified Eurotiomycetes	0	5
+12	species	1180666	151555	Eurotiomycetes sp. genotype 116	5	0
+11	subclass	451870	147545	Chaetothyriomycetidae	1	90
+12	order	34395	451870	Chaetothyriales	0	30
+13	family	43219	34395	Herpotrichiellaceae	0	30
+14	genus	5583	43219	Exophiala	0	9
+15	species	1158749	5583	Exophiala sp. NH748	9	0
+14	genus	5600	43219	Phialophora	0	20
+15	species	39412	5600	Phialophora verrucosa	7	0
+15	species	159282	5600	Phialophora sp. 32098/28FN	13	0
+12	order	100121	451870	Pyrenulales	0	51
+13	family	146307	100121	Pyrenulaceae	0	51
+14	genus	146308	146307	Pyrenula	51	0
+12	order	146291	451870	Verrucariales	0	8
+13	family	146292	146291	Verrucariaceae	1	7
+14	genus	146293	146292	Dermatocarpon	0	4
+15	species	172328	146293	Dermatocarpon miniatum	4	0
+11	subclass	451871	147545	Eurotiomycetidae	0	189
+12	order	5042	451871	Eurotiales	4	104
+13	family	28568	5042	Trichocomaceae	0	38
+14	genus	5540	28568	Thermomyces	0	38
+15	species	5541	5540	Thermomyces lanuginosus	0	38
+16	no rank	1158138	5541	Thermomyces lanuginosus SSBP	38	0
+13	family	1131492	5042	Aspergillaceae	57	7
+14	genus	5052	1131492	Aspergillus	1	3
+12	order	33183	451871	Onygenales	0	4
+12	no rank	1676655	451871	Eurotiomycetidae incertae sedis	0	77
+13	genus	37234	1676655	Spiromastix	0	77
+14	species	37235	37234	Spiromastix warcupii	77	0
+10	class	147547	716546	Lecanoromycetes	0	2358
+11	no rank	1520881	147547	OSLEUM clade	8	2347
+12	subclass	388283	1520881	Ostropomycetidae	0	2132
+13	order	38074	388283	Ostropales	0	61
+14	family	56757	38074	Stictidaceae	0	5
+15	genus	292180	56757	Cryptodiscus	1	4
+16	species	292181	292180	Cryptodiscus foveolaris	4	0
+14	family	71598	38074	Graphidaceae	0	25
+15	subfamily	1130102	71598	Graphidoideae	0	24
+16	tribe	1130104	1130102	Graphideae	0	7
+17	genus	71599	1130104	Graphis	0	6
+18	species	377381	71599	Graphis sp. 33942A	6	0
+16	tribe	1130107	1130102	Thelotremateae	0	16
+17	genus	71602	1130107	Diploschistes	6	0
+17	genus	372014	1130107	Chapsa	0	8
+18	species	1232391	372014	Chapsa thallotrema	7	0
+14	family	88634	38074	Gyalectaceae	0	4
+15	genus	88635	88634	Gyalecta	0	4
+16	species	146295	88635	Gyalecta jenensis	4	0
+14	family	292182	38074	Odontotremataceae	0	19
+15	genus	1238956	292182	Sphaeropezia	0	18
+16	species	1238958	1238956	Sphaeropezia mycoblasti	18	0
+14	family	388285	38074	Porinaceae	0	7
+15	genus	146305	388285	Porina	0	7
+16	species	348126	146305	Porina aenea	7	0
+13	order	88639	388283	Pertusariales	4	9
+14	family	50931	88639	Pertusariaceae	0	7
+15	genus	50932	50931	Pertusaria	0	7
+16	species	267814	50932	Pertusaria panyrga	6	0
+13	order	1519617	388283	Sarrameanales	0	2056
+14	family	388443	1519617	Sarrameanaceae	0	2056
+15	genus	107435	388443	Loxospora	0	2056
+16	species	400354	107435	Loxospora ochrophaea	2056	0
+12	subclass	388435	1520881	Lecanoromycetidae	6	178
+13	order	5197	388435	Lecanorales	0	70
+14	suborder	157822	5197	Lecanorineae	1	69
+15	family	39933	157822	Lecanoraceae	0	3
+15	family	56478	157822	Ramalinaceae	2	9
+16	genus	56479	56478	Ramalina	0	3
+16	genus	93111	56478	Bacidia	0	5
+17	species	161808	93111	Bacidia schweinitzii	5	0
+15	family	78060	157822	Parmeliaceae	1	53
+16	genus	86620	78060	Usnea	1	3
+16	genus	172618	78060	Hypotrachyna	3	0
+16	genus	172634	78060	Parmotrema	0	44
+17	species	172642	172634	Parmotrema reticulatum	44	0
+13	order	107465	388435	Teloschistales	0	6
+14	suborder	1302176	107465	Teloschistineae	1	5
+15	family	88646	1302176	Teloschistaceae	0	5
+16	subfamily	1301213	88646	Caloplacoideae	0	3
+13	order	388450	388435	Peltigerales	0	78
+14	suborder	157824	388450	Peltigerineae	0	10
+15	family	48860	157824	Peltigeraceae	0	4
+15	family	1343996	157824	Koerberiaceae	0	6
+16	genus	232766	1343996	Steinera	4	0
+14	suborder	388451	388450	Collematineae	0	68
+15	family	169285	388451	Placynthiaceae	0	50
+16	genus	168920	169285	Placynthium	0	24
+17	species	168921	168920	Placynthium nigrum	24	0
+16	genus	409933	169285	Leptochidium	0	26
+17	species	409934	409933	Leptochidium albociliatum	26	0
+15	family	176448	388451	Pannariaceae	0	11
+16	genus	1194209	176448	Leptogidium	0	10
+17	species	1166704	1194209	Leptogidium dendriscum	10	0
+15	family	191096	388451	Coccocarpiaceae	0	7
+16	genus	1166708	191096	Spilonemella	0	7
+17	species	1166709	1166708	Spilonemella americana	7	0
+13	order	1302181	388435	Caliciales	0	21
+14	family	50934	1302181	Physciaceae	0	21
+15	genus	114783	50934	Physconia	0	5
+16	species	114791	114783	Physconia grisea	4	0
+15	genus	116826	50934	Rinodina	0	15
+16	species	144718	116826	Rinodina tunicata	15	0
+12	subclass	1520791	1520881	Umbilicariomycetidae	0	31
+13	order	452227	1520791	Umbilicariales	0	31
+14	family	87265	452227	Umbilicariaceae	0	29
+15	genus	87266	87265	Lasallia	1	3
+15	genus	87270	87265	Umbilicaria	16	9
+16	species	903553	87270	Umbilicaria haplocarpa	3	0
+16	species	1246593	87270	Umbilicaria tylorrhiza	5	0
+10	no rank	715962	716546	dothideomyceta	1	506
+11	class	147539	715962	Arthoniomycetes	0	25
+12	order	39677	147539	Arthoniales	1	22
+13	family	39678	39677	Arthoniaceae	0	4
+14	genus	39679	39678	Arthonia	0	3
+15	species	582401	39679	Arthonia caesia	3	0
+13	family	40111	39677	Roccellaceae	3	10
+14	genus	289273	40111	Enterographa	5	0
+13	family	1542769	39677	Lecanographaceae	0	3
+14	genus	1010672	1542769	Alyxoria	0	3
+15	species	91480	1010672	Alyxoria varia	3	0
+11	class	147541	715962	Dothideomycetes	29	452
+12	no rank	159987	147541	Dothideomycetes incertae sedis	0	3
+12	subclass	451867	147541	Dothideomycetidae	0	159
+13	order	5014	451867	Dothideales	0	4
+13	order	134362	451867	Capnodiales	12	143
+14	family	62133	134362	Capnodiaceae	0	4
+14	family	93133	134362	Mycosphaerellaceae	17	54
+15	genus	39702	93133	Septoria	16	2
+15	genus	41254	93133	Mycosphaerella	0	7
+16	species	161659	41254	Mycosphaerella cryptica	3	0
+15	genus	112497	93133	Ramularia	0	3
+16	species	43215	112497	Ramularia endophylla	0	3
+17	no rank	1367538	43215	Ramularia endophylla CBS 113265	3	0
+15	genus	170077	93133	Pseudocercosporella	0	17
+16	species	705920	170077	Pseudocercosporella fraxini	17	0
+15	no rank	243630	93133	unclassified Mycosphaerellaceae	4	1
+14	family	452563	134362	Cladosporiaceae	13	6
+15	genus	5498	452563	Cladosporium	0	3
+15	no rank	459566	452563	environmental samples	0	3
+16	species	613059	459566	uncultured Davidiella	3	0
+14	family	668547	134362	Teratosphaeriaceae	3	38
+15	genus	237584	668547	Teratosphaeria	3	34
+16	species	112493	237584	Teratosphaeria molleriana	0	22
+17	no rank	470149	112493	Readeriella molleriana	22	0
+16	species	470147	237584	Teratosphaeria suttonii	12	0
+14	family	744530	134362	Dissoconiaceae	2	3
+12	subclass	451868	147541	Pleosporomycetidae	0	289
+13	order	92860	451868	Pleosporales	2	266
+14	no rank	147498	92860	Pleosporales incertae sedis	0	6
+15	genus	682060	147498	Astrosphaeriella	0	3
+16	species	1149707	682060	Astrosphaeriella africana	3	0
+14	suborder	715340	92860	Pleosporineae	241	13
+15	family	5020	715340	Phaeosphaeriaceae	3	0
+15	family	28556	715340	Pleosporaceae	5	2
+15	family	683158	715340	Didymellaceae	0	3
+13	order	191554	451868	Hysteriales	0	21
+14	family	100025	191554	Hysteriaceae	0	21
+15	genus	531857	100025	Gloniopsis	0	19
+16	species	714892	531857	Gloniopsis kenyensis	19	0
+10	no rank	715989	716546	sordariomyceta	76	30892
+11	class	147548	715989	Leotiomycetes	4	78
+12	order	5120	147548	Erysiphales	0	7
+13	family	34371	5120	Erysiphaceae	0	7
+14	genus	184027	34371	Golovinomyces	0	6
+15	species	62715	184027	Golovinomyces orontii	6	0
+12	order	5178	147548	Helotiales	6	38
+13	family	5181	5178	Helotiaceae	0	5
+14	genus	315078	5181	Cudoniella	0	3
+15	species	315222	315078	Cudoniella clavus	3	0
+13	no rank	54695	5178	unclassified Helotiales	16	9
+14	species	1321895	54695	Helotiales sp. 84 OA-2013	9	0
+13	no rank	150174	5178	mitosporic Helotiales	0	3
+14	genus	13000	150174	Chalara	0	3
+15	species	610146	13000	Chalara sp. OC0027	3	0
+12	order	47166	147548	Rhytismatales	0	10
+13	family	47167	47166	Rhytismataceae	1	9
+14	genus	66519	47167	Tryblidiopsis	0	4
+15	species	66520	66519	Tryblidiopsis pinastri	3	0
+12	no rank	194550	147548	mitosporic Leotiomycetes	0	15
+13	genus	5538	194550	Scytalidium	0	15
+14	species	886976	5538	Scytalidium circinatum	6	0
+14	species	1079101	5538	Scytalidium sp. YHG-2011	9	0
+11	class	147550	715989	Sordariomycetes	3656	27154
+12	no rank	147551	147550	Sordariomycetes incertae sedis	0	26
+13	order	135652	147551	Lulworthiales	0	20
+14	family	135653	135652	Lulworthiaceae	0	19
+15	genus	45815	135653	Lindra	0	12
+16	species	309134	45815	Lindra obtusa	11	0
+15	genus	45817	135653	Lulworthia	1	5
+16	species	77629	45817	Lulworthia grandispora	5	0
+12	no rank	150498	147550	unclassified Sordariomycetes	83	0
+12	subclass	222543	147550	Hypocreomycetidae	7313	17797
+13	order	5125	222543	Hypocreales	1647	15863
+14	family	5129	5125	Hypocreaceae	2	349
+15	genus	5130	5129	Hypomyces	10	57
+16	species	40603	5130	Hypomyces tremellicola	5	0
+16	species	101000	5130	Hypomyces luteovirens	8	0
+16	species	193393	5130	Hypomyces subiculosus	3	0
+16	species	463153	5130	Hypomyces viridigriseus	30	0
+15	genus	5543	5129	Trichoderma	0	66
+16	species	51453	5543	Trichoderma reesei	64	0
+15	genus	150372	5129	Escovopsis	199	12
+16	species	217020	150372	Escovopsis sp. Esc10	10	0
+14	family	34397	5125	Clavicipitaceae	11757	66
+15	genus	5529	34397	Metarhizium	0	39
+16	species	5530	5529	Metarhizium anisopliae	39	0
+15	genus	42305	34397	Hypocrella	0	7
+16	species	153667	42305	Hypocrella discoidea	7	0
+15	genus	100986	34397	Aschersonia	6	0
+15	genus	311780	34397	Paecilomyces	0	4
+16	species	797268	311780	Paecilomyces hepiali	4	0
+15	genus	1105318	34397	Conoideocrella	0	9
+16	species	1105319	1105318	Conoideocrella luteorostrata	9	0
+14	no rank	85996	5125	unclassified Hypocreales	67	3
+14	family	103887	5125	Bionectriaceae	4	56
+15	genus	95327	103887	Nigrosabulum	0	5
+16	species	95328	95327	Nigrosabulum globosum	5	0
+15	genus	110564	103887	Clonostachys	9	4
+15	genus	110567	103887	Hydropisphaera	0	7
+16	species	110568	110567	Hydropisphaera erubescens	7	0
+15	genus	110587	103887	Ochronectria	0	11
+16	species	110588	110587	Ochronectria calami	11	0
+15	genus	110591	103887	Selinia	0	6
+16	species	110592	110591	Selinia pulchra	6	0
+15	genus	796315	103887	Protocreopsis	0	3
+16	species	796316	796315	Protocreopsis pertusa	3	0
+15	genus	1206322	103887	Bryocentria	3	3
+16	species	1206323	1206322	Bryocentria brongniartii	3	0
+14	family	110618	5125	Nectriaceae	32	2818
+15	genus	5133	110618	Nectria	1	6
+15	genus	5506	110618	Fusarium	229	2524
+16	species	57147	5506	Fusarium merismoides	3	0
+16	species	120035	5506	Fusarium sp. NRRL 25126	7	0
+16	no rank	171627	5506	Fusarium fujikuroi species complex	3	2462
+17	species	5127	171627	Fusarium fujikuroi	0	2462
+18	no rank	1279085	5127	Fusarium fujikuroi IMI 58289	2462	0
+16	no rank	171631	5506	Fusarium oxysporum species complex	0	16
+17	species	5507	171631	Fusarium oxysporum	16	0
+16	no rank	232080	5506	Fusarium solani species complex	1	3
+17	species	569391	232080	Fusarium sp. NRRL 36877	3	0
+16	species	468364	5506	Fusarium sp. QJC-1403	3	0
+16	species	557931	5506	Fusarium sp. SGLAf11	9	0
+16	species	1246161	5506	Fusarium sp. ES169	4	0
+16	species	1550711	5506	Fusarium sp. PAB-2014b	8	0
+15	genus	13474	110618	Cylindrocarpon	0	7
+16	species	576008	13474	Cylindrocarpon sp. 799_1_Z01	7	0
+15	genus	57138	110618	Calonectria	3	8
+16	species	349452	57138	Calonectria hurae	7	0
+15	genus	115234	110618	Cosmospora	0	3
+15	genus	137494	110618	Cylindrocladiella	7	1
+15	genus	137506	110618	Xenocylindrocladium	0	3
+16	species	149382	137506	Xenocylindrocladium guianense	3	0
+15	genus	140106	110618	Neonectria	0	3
+15	no rank	332317	110618	environmental samples	0	5
+16	species	369572	332317	uncultured Fusarium	5	0
+15	no rank	359652	110618	unclassified Nectriaceae	3	1
+15	genus	1053258	110618	Thelonectria	0	4
+16	species	1053261	1053258	Thelonectria lucida	3	0
+15	genus	1508269	110618	Penicillifer	0	4
+16	species	1508270	1508269	Penicillifer martinii	4	0
+14	no rank	162454	5125	Hypocreales incertae sedis	1	432
+15	genus	45244	162454	Emericellopsis	0	365
+16	species	1419734	45244	Emericellopsis alkalina	365	0
+15	genus	159075	162454	Acremonium	47	12
+16	species	5044	159075	Acremonium chrysogenum	0	5
+17	no rank	857340	5044	Acremonium chrysogenum ATCC 11550	5	0
+16	species	1036763	159075	Acremonium rhabdosporum	3	0
+15	genus	231006	162454	Trichothecium	0	6
+16	species	1246239	231006	Trichothecium sp. ES150	5	0
+14	family	474942	5125	Ophiocordycipitaceae	13	81
+15	genus	150362	474942	Polycephalomyces	0	4
+16	species	228611	150362	Polycephalomyces ramosus	4	0
+15	genus	474995	474942	Ophiocordyceps	4	73
+16	species	72228	474995	Ophiocordyceps sinensis	0	32
+17	no rank	911162	72228	Ophiocordyceps sinensis CO18	32	0
+16	species	153661	474995	Ophiocordyceps irangiensis	4	0
+16	species	168173	474995	Ophiocordyceps crassispora	21	0
+16	species	933235	474995	Ophiocordyceps neovolkiana	9	0
+16	species	1527420	474995	Ophiocordyceps sp. OSC 151904	3	0
+14	family	474943	5125	Cordycipitaceae	57	113
+15	genus	5581	474943	Beauveria	0	6
+16	species	176275	5581	Beauveria bassiana	6	0
+15	genus	45234	474943	Cordyceps	8	79
+16	species	73501	45234	Cordyceps militaris	51	0
+16	species	153660	45234	Cordyceps cylindrica	7	0
+16	species	153663	45234	Cordyceps pseudomilitaris	3	0
+16	species	652033	45234	Cordyceps ninchukispora	12	0
+15	genus	292631	474943	Simplicillium	1	10
+16	species	1246202	292631	Simplicillium sp. ES104	10	0
+15	no rank	1295156	474943	unclassified Cordycipitaceae	3	0
+14	family	1667166	5125	Stachybotriaceae	0	10
+15	genus	74721	1667166	Stachybotrys	7	2
+13	order	5592	222543	Microascales	1	171
+14	family	5593	5592	Microascaceae	0	23
+15	genus	40374	5593	Scopulariopsis	4	0
+15	genus	42313	5593	Petriella	12	0
+15	no rank	558259	5593	environmental samples	0	5
+16	species	760028	558259	uncultured Pseudallescheria	3	0
+14	family	42310	5592	Halosphaeriaceae	47	91
+15	genus	45809	42310	Corollospora	5	11
+16	species	201930	45809	Corollospora sp. 6266	4	0
+16	species	201936	45809	Corollospora intermedia	3	0
+15	genus	45813	42310	Lignincola	0	49
+16	species	45814	45813	Lignincola laevis	29	0
+16	species	213800	45813	Lignincola tropica	20	0
+15	genus	103849	42310	Phaeonectriella	0	3
+16	species	103851	103849	Phaeonectriella lignicola	3	0
+15	genus	232012	42310	Sagaaromyces	0	10
+16	species	213797	232012	Sagaaromyces abonnis	10	0
+15	genus	930067	42310	Nautosphaeria	0	3
+16	species	930068	930067	Nautosphaeria cristaminuta	3	0
+14	no rank	150176	5592	mitosporic Microascales	0	7
+15	genus	186351	150176	Doratomyces	6	0
+13	no rank	252163	222543	Hypocreomycetidae incertae sedis	11	48
+14	genus	252164	252163	Ascocodinaea	0	7
+15	species	252165	252164	Ascocodinaea stereicola	7	0
+14	order	252166	252163	Coronophorales	3	26
+15	family	252170	252166	Nitschkiaceae	0	8
+16	genus	252171	252170	Nitschkia	0	5
+17	species	306485	252171	Nitschkia pezizoidea	5	0
+16	genus	306122	252170	Acanthonitschkea	0	3
+17	species	714360	306122	Acanthonitschkea tristis	3	0
+15	family	307582	252166	Scortechiniaceae	0	18
+16	genus	1431241	307582	Pseudocatenomycopsis	0	18
+17	species	1414709	1431241	Pseudocatenomycopsis rothmanniae	18	0
+14	order	452228	252163	Melanosporales	0	9
+15	family	452229	452228	Melanosporaceae	0	9
+16	genus	40615	452229	Melanospora	0	9
+17	species	40617	40615	Melanospora zamiae	9	0
+13	order	1028384	222543	Glomerellales	0	52
+14	family	681950	1028384	Glomerellaceae	0	24
+15	genus	5455	681950	Colletotrichum	3	21
+16	species	145971	5455	Colletotrichum lupini	12	0
+16	species	359343	5455	Colletotrichum dracaenophilum	7	0
+14	family	1033978	1028384	Plectosphaerellaceae	0	26
+15	genus	40657	1033978	Plectosphaerella	0	10
+16	species	40658	40657	Plectosphaerella cucumerina	4	0
+16	species	1321915	40657	Plectosphaerella sp. 93 OA-2013	6	0
+15	no rank	1033979	1033978	mitosporic Plectosphaerellaceae	0	16
+16	genus	461148	1033979	Acrostalagmus	0	5
+17	species	132138	461148	Acrostalagmus luteoalbus	5	0
+16	genus	1036719	1033979	Verticillium	0	11
+17	species	27337	1036719	Verticillium dahliae	11	0
+13	order	1127803	222543	Savoryellales	0	4
+14	genus	1096518	1127803	Savoryella	4	0
+12	subclass	222544	147550	Sordariomycetidae	13	1781
+13	order	5114	222544	Diaporthales	6	53
+14	family	5117	5114	Valsaceae	0	6
+15	genus	34399	5117	Phomopsis	0	6
+16	species	278970	34399	Phomopsis eucommii	3	0
+16	species	746716	34399	Phomopsis sp. MA125	3	0
+14	family	148311	5114	Melanconidaceae	0	5
+15	genus	148317	148311	Melanconis	0	3
+14	family	218102	5114	Gnomoniaceae	2	33
+15	genus	494041	218102	Ophiognomonia	0	33
+16	species	1470024	494041	Ophiognomonia sp. AW-2014	33	0
+14	family	767018	5114	Diaporthaceae	0	5
+15	genus	935935	767018	Phaeocytostroma	0	5
+16	species	935943	935935	Phaeocytostroma megalosporum	5	0
+13	order	5139	222544	Sordariales	18	1577
+14	family	5148	5139	Sordariaceae	0	1276
+15	genus	5140	5148	Neurospora	0	1276
+16	species	5141	5140	Neurospora crassa	1273	0
+16	species	88718	5140	Neurospora terricola	0	3
+17	no rank	1266715	88718	Neurospora terricola FGSC 1889	3	0
+14	family	35718	5139	Chaetomiaceae	2	274
+15	genus	5149	35718	Chaetomium	0	18
+16	species	38033	5149	Chaetomium globosum	9	0
+16	species	858766	5149	Chaetomium indicum	5	0
+16	species	911114	5149	Chaetomium virescens	0	4
+17	varietas	911115	911114	Chaetomium virescens var. virescens	4	0
+15	genus	35719	35718	Thielavia	0	246
+16	species	1511729	35719	Thielavia sp. PA0001	245	0
+15	no rank	332320	35718	environmental samples	0	5
+16	species	1395129	332320	uncultured Zopfiella	5	0
+15	genus	455372	35718	Myriococcum	0	3
+16	species	455373	455372	Myriococcum thermophilum	3	0
+14	family	42302	5139	Lasiosphaeriaceae	0	14
+15	genus	5144	42302	Podospora	0	10
+16	species	5145	5144	Podospora anserina	0	9
+17	no rank	515849	5145	Podospora anserina S mat+	9	0
+14	no rank	110158	5139	Sordariales incertae sedis	0	4
+15	genus	679517	110158	Roselliniella	0	4
+16	species	679518	679517	Roselliniella euparmeliicola	3	0
+14	family	173161	5139	Pleurotremataceae	0	6
+15	genus	173160	173161	Rimaconus	6	0
+13	order	5151	222544	Ophiostomatales	0	10
+14	family	5152	5151	Ophiostomataceae	3	7
+15	genus	5159	5152	Ophiostoma	3	2
+13	order	93808	222544	Calosphaeriales	0	6
+14	family	93809	93808	Calosphaeriaceae	0	6
+15	genus	312313	93809	Togniniella	0	4
+16	species	312314	312313	Togniniella acerosa	4	0
+13	no rank	252199	222544	Sordariomycetidae incertae sedis	0	13
+14	family	99676	252199	Annulatascaceae	0	7
+15	genus	246474	99676	Cyanoannulus	0	5
+16	species	246475	246474	Cyanoannulus petersenii	5	0
+13	order	261460	222544	Chaetosphaeriales	0	9
+14	family	103886	261460	Chaetosphaeriaceae	2	7
+15	genus	92898	103886	Chaetosphaeria	3	3
+13	order	292576	222544	Coniochaetales	0	5
+14	family	79807	292576	Coniochaetaceae	0	5
+15	genus	79808	79807	Coniochaeta	0	5
+16	species	177207	79808	Coniochaeta mutabilis	5	0
+13	no rank	335292	222544	environmental samples	0	19
+14	species	209469	335292	uncultured Sordariomycetidae	19	0
+13	order	639021	222544	Magnaporthales	0	65
+14	family	81093	639021	Magnaporthaceae	2	63
+15	genus	29849	81093	Gaeumannomyces	0	32
+16	species	29850	29849	Gaeumannomyces graminis	0	32
+17	varietas	36779	29850	Gaeumannomyces graminis var. tritici	0	32
+18	no rank	644352	36779	Gaeumannomyces graminis var. tritici R3-111a-1	32	0
+15	genus	148303	81093	Magnaporthe	31	0
+12	subclass	222545	147550	Xylariomycetidae	0	141
+13	order	37989	222545	Xylariales	10	131
+14	family	37990	37989	Xylariaceae	3	85
+15	genus	37991	37990	Xylaria	0	61
+16	species	175486	37991	Xylaria sp. KU416	52	0
+16	species	665661	37991	Xylaria apoda	6	0
+15	genus	146310	37990	Seynesia	0	14
+16	species	146311	146310	Seynesia erumpens	14	0
+14	family	42364	37989	Diatrypaceae	0	4
+15	genus	1592558	42364	Pedumispora	0	4
+16	species	1592559	1592558	Pedumispora rhizophorae	4	0
+14	family	54958	37989	Amphisphaeriaceae	2	7
+15	genus	37840	54958	Pestalotiopsis	0	4
+16	species	1246188	37840	Pestalotiopsis sp. ES143	4	0
+14	family	63199	37989	Clypeosphaeriaceae	0	6
+15	genus	314018	63199	Duradens	0	6
+16	species	314035	314018	Duradens sp. SMH1708	6	0
+14	no rank	127936	37989	unclassified Xylariales	14	7
+15	species	1593479	127936	Xylariales sp. DAD-2014d	3	0
+15	species	1597870	127936	Xylariales OTU17	3	0
+14	no rank	189359	37989	Xylariales incertae sedis	0	3
+6	phylum	5204	451864	Basidiomycota	53	946
+7	subphylum	5302	5204	Agaricomycotina	28	865
+8	class	155616	5302	Tremellomycetes	0	52
+9	order	5234	155616	Tremellales	2	46
+10	family	5215	5234	Tremellaceae	1	35
+11	genus	5206	5215	Filobasidiella	0	29
+12	no rank	552466	5206	Filobasidiella/Cryptococcus neoformans species complex	1	28
+13	species	5207	552466	Cryptococcus neoformans	0	19
+14	varietas	178876	5207	Cryptococcus neoformans var. grubii	19	0
+13	species	552467	552466	Cryptococcus gattii	9	0
+11	genus	105767	5215	Tremella	0	3
+12	species	29897	105767	Tremella foliacea	3	0
+11	no rank	195027	5215	environmental samples	0	3
+12	species	1503101	195027	uncultured Filobasidiella	3	0
+10	family	57692	5234	Sirobasidiaceae	0	4
+11	genus	57687	57692	Fibulobasidium	4	0
+10	no rank	415703	5234	Tremellales incertae sedis	1	3
+9	order	90886	155616	Filobasidiales	0	3
+10	family	5408	90886	Filobasidiaceae	0	3
+11	genus	5209	5408	Filobasidium	0	3
+12	species	5211	5209	Filobasidium capsuligenum	3	0
+8	class	155619	5302	Agaricomycetes	76	726
+9	no rank	217277	155619	unclassified Agaricomycetes	27	0
+9	no rank	355688	155619	Agaricomycetes incertae sedis	8	264
+10	order	5303	355688	Polyporales	0	66
+11	family	5313	5303	Ganodermataceae	0	3
+12	genus	5314	5313	Ganoderma	0	3
+13	species	5315	5314	Ganoderma lucidum	3	0
+11	family	5317	5303	Polyporaceae	0	24
+12	no rank	551032	5317	environmental samples	0	24
+13	species	1193696	551032	uncultured Fibroporia	8	0
+13	species	1193702	551032	uncultured Lignosus	16	0
+11	family	81064	5303	Meruliaceae	0	3
+11	family	83233	5303	Coriolaceae	0	32
+12	genus	5324	83233	Trametes	0	3
+13	species	5325	5324	Trametes versicolor	3	0
+12	genus	34474	83233	Fomitopsis	0	3
+12	genus	40441	83233	Fomes	0	10
+13	species	40442	40441	Fomes fomentarius	10	0
+12	genus	81055	83233	Wolfiporia	0	13
+13	species	81056	81055	Wolfiporia cocos	13	0
+12	genus	83235	83233	Postia	0	3
+13	species	1338680	83235	Postia alni	3	0
+10	order	36064	355688	Cantharellales	1	16
+11	family	5237	36064	Tulasnellaceae	1	8
+12	genus	5240	5237	Tulasnella	7	1
+11	family	5250	36064	Ceratobasidiaceae	0	3
+11	family	57201	36064	Cantharellaceae	0	3
+12	genus	36065	57201	Cantharellus	0	3
+13	species	1263400	36065	Cantharellus sp. Tibuhwa 1070.2007	3	0
+10	order	56487	355688	Thelephorales	0	28
+11	family	56488	56487	Thelephoraceae	0	27
+12	no rank	178731	56488	environmental samples	0	26
+13	species	299170	178731	uncultured Thelephoraceae	26	0
+10	order	139380	355688	Hymenochaetales	0	10
+11	family	40424	139380	Hymenochaetaceae	0	10
+12	genus	40470	40424	Phellinus	0	7
+13	species	40472	40470	Phellinus igniarius	7	0
+12	genus	40473	40424	Phylloporia	0	3
+13	species	1001330	40473	Phylloporia oblongospora	3	0
+10	order	297313	355688	Sebacinales	1	89
+11	family	160909	297313	Sebacinaceae	0	88
+12	genus	80757	160909	Sebacina	8	0
+12	no rank	197710	160909	environmental samples	0	80
+13	species	459538	197710	uncultured Sebacina	80	0
+10	order	452338	355688	Corticiales	0	7
+11	family	5304	452338	Corticiaceae	0	7
+12	genus	68802	5304	Hyphodontia	0	3
+10	order	452339	355688	Gloeophyllales	0	24
+11	family	452340	452339	Gloeophyllaceae	1	23
+12	genus	40443	452340	Gloeophyllum	0	23
+13	species	40444	40443	Gloeophyllum sepiarium	6	0
+13	species	180171	40443	Gloeophyllum abietinum	17	0
+10	order	452342	355688	Russulales	0	21
+11	family	40417	452342	Auriscalpiaceae	0	15
+12	genus	205744	40417	Gloeodontia	14	0
+11	family	103393	452342	Peniophoraceae	0	3
+12	genus	40463	103393	Peniophora	3	0
+9	subclass	452333	155619	Agaricomycetidae	1	385
+10	order	5338	452333	Agaricales	23	329
+11	family	5339	5338	Agaricaceae	0	31
+12	genus	5345	5339	Coprinus	0	15
+13	species	56187	5345	Coprinus comatus	15	0
+12	genus	37314	5339	Lepiota	0	14
+13	species	222938	37314	Lepiota farinolens	14	0
+11	family	5351	5338	Tricholomataceae	1	14
+12	genus	935905	5351	Pseudohiatula	0	11
+13	species	935907	935905	Pseudohiatula irrorata	11	0
+11	family	5426	5338	Lycoperdaceae	0	4
+12	genus	90676	5426	Bovista	4	0
+11	family	34450	5338	Cortinariaceae	0	8
+12	genus	101842	34450	Naucoria	0	8
+13	species	171466	101842	Naucoria escharoides	8	0
+11	family	41954	5338	Amanitaceae	0	12
+12	genus	41955	41954	Amanita	6	6
+13	species	87323	41955	Amanita cokeri	0	3
+14	forma	223908	87323	Amanita cokeri f. roseotincta	3	0
+11	family	51005	5338	Hygrophoraceae	0	5
+12	genus	51006	51005	Hygrocybe	3	0
+11	family	71934	5338	Entolomataceae	0	4
+12	genus	71937	71934	Entoloma	0	3
+11	family	72117	5338	Omphalotaceae	0	4
+12	genus	93827	72117	Gymnopus	0	4
+13	species	227424	93827	Gymnopus vitellinipes	4	0
+11	family	139264	5338	Cyphellaceae	0	33
+12	genus	139265	139264	Cyphellopsis	0	32
+13	species	139267	139265	Cyphellopsis sp. GEL4873	32	0
+11	no rank	158297	5338	unclassified Agaricales	13	0
+11	family	184208	5338	Psathyrellaceae	0	13
+12	genus	184430	184208	Coprinellus	0	13
+13	species	1033849	184430	Coprinellus mitrinodulisporum	13	0
+11	family	654128	5338	Marasmiaceae	1	50
+12	genus	34448	654128	Marasmius	0	50
+13	species	700780	34448	Marasmius brunneospermus	48	0
+11	family	665596	5338	Inocybaceae	0	90
+12	genus	71953	665596	Inocybe	67	23
+13	species	217425	71953	Inocybe rimosa	0	20
+14	varietas	935575	217425	Inocybe rimosa var. rimosa	20	0
+11	family	930979	5338	Lyophyllaceae	0	41
+12	genus	71927	930979	Termitomyces	0	40
+13	species	71929	71927	Termitomyces heimii	4	0
+13	no rank	189768	71927	environmental samples	0	35
+14	species	189767	189768	uncultured Termitomyces	35	0
+10	order	68889	452333	Boletales	0	33
+11	suborder	227327	68889	Sclerodermatineae	5	3
+11	suborder	227330	68889	Boletineae	0	6
+12	family	5368	227330	Boletaceae	2	4
+13	subfamily	1487592	5368	Boletoideae	0	3
+11	suborder	227334	68889	Coniophorineae	0	16
+12	family	80634	227334	Coniophoraceae	0	8
+13	genus	80635	80634	Coniophora	0	8
+14	species	157263	80635	Coniophora marmorata	8	0
+12	family	389951	227334	Serpulaceae	0	8
+13	genus	80744	389951	Serpula	8	0
+9	subclass	452335	155619	Phallomycetidae	0	41
+10	order	452336	452335	Gomphales	0	39
+11	family	60108	452336	Gomphaceae	0	39
+12	genus	68779	60108	Ramaria	0	38
+13	species	113071	68779	Ramaria rubella	0	38
+14	forma	1133735	113071	Ramaria rubella f. rubella	38	0
+8	class	452332	5302	Dacrymycetes	0	11
+9	order	28997	452332	Dacrymycetales	0	11
+10	family	5254	28997	Dacrymycetaceae	0	11
+11	genus	5255	5254	Dacrymyces	0	11
+12	species	29887	5255	Dacrymyces stillatus	11	0
+7	subphylum	29000	5204	Pucciniomycotina	0	22
+8	class	162481	29000	Microbotryomycetes	2	10
+9	order	55070	162481	Microbotryales	0	5
+10	family	55071	55070	Microbotryaceae	0	5
+11	genus	34416	55071	Microbotryum	0	5
+12	species	289078	34416	Microbotryum saponariae	5	0
+9	order	231213	162481	Sporidiobolales	0	5
+10	no rank	89013	231213	mitosporic Sporidiobolales	0	3
+8	class	162484	29000	Pucciniomycetes	0	7
+9	order	5258	162484	Pucciniales	0	5
+7	no rank	38240	5204	unclassified Basidiomycota	7	0
+7	subphylum	452284	5204	Ustilaginomycotina	2	20
+8	class	5257	452284	Ustilaginomycetes	0	12
+9	order	5267	5257	Ustilaginales	0	7
+10	family	5268	5267	Ustilaginaceae	2	5
+11	no rank	85578	5268	mitosporic Ustilaginaceae	0	4
+12	genus	63298	85578	Pseudozyma	0	4
+13	species	1392244	63298	Pseudozyma brasiliensis	0	4
+14	no rank	1365824	1392244	Pseudozyma brasiliensis GHG001	4	0
+9	order	62921	5257	Urocystidales	0	5
+10	family	62923	62921	Melanotaeniaceae	0	3
+11	genus	63260	62923	Melanotaenium	0	3
+12	species	84746	63260	Melanotaenium endogenum	3	0
+8	class	452283	452284	Exobasidiomycetes	0	7
+9	order	5404	452283	Exobasidiales	0	6
+10	family	5405	5404	Exobasidiaceae	0	4
+11	genus	5406	5405	Exobasidium	0	4
+12	species	5407	5406	Exobasidium vaccinii	0	3
+13	no rank	1314671	5407	Exobasidium vaccinii MPITM	3	0
+5	phylum	1031332	4751	Cryptomycota	0	805
+6	genus	276836	1031332	Rozella	634	171
+7	species	276837	276836	Rozella sp. JEL347	121	0
+7	species	281847	276836	Rozella allomycis	0	50
+8	no rank	988480	281847	Rozella allomycis CSF55	50	0
+5	phylum	1264859	4751	Entomophthoromycota	0	41
+6	class	1399768	1264859	Basidiobolomycetes	0	3
+7	order	1264872	1399768	Basidiobolales	0	3
+8	family	4858	1264872	Basidiobolaceae	0	3
+9	genus	4859	4858	Basidiobolus	0	3
+10	species	34480	4859	Basidiobolus ranarum	3	0
+6	class	1399770	1264859	Entomophthoromycetes	0	38
+7	order	4857	1399770	Entomophthorales	0	38
+8	family	34481	4857	Entomophthoraceae	5	6
+9	genus	39186	34481	Entomophaga	0	6
+10	species	39303	39186	Entomophaga aulicae	6	0
+8	family	34486	4857	Ancylistaceae	0	27
+9	genus	34487	34486	Conidiobolus	0	27
+10	species	34488	34487	Conidiobolus coronatus	0	27
+11	no rank	796925	34488	Conidiobolus coronatus NRRL 28638	27	0
+4	kingdom	33208	33154	Metazoa	0	13
+5	no rank	6072	33208	Eumetazoa	0	13
+6	no rank	33213	6072	Bilateria	0	13
+7	no rank	33317	33213	Protostomia	0	13
+8	no rank	1206794	33317	Ecdysozoa	0	13
+9	no rank	88770	1206794	Panarthropoda	0	13
+10	phylum	6656	88770	Arthropoda	0	13
+11	no rank	197563	6656	Mandibulata	0	13
+12	no rank	197562	197563	Pancrustacea	0	13
+13	superclass	6960	197562	Hexapoda	0	13
+14	class	50557	6960	Insecta	0	13
+15	no rank	85512	50557	Dicondylia	0	13
+16	no rank	7496	85512	Pterygota	0	13
+17	subclass	33340	7496	Neoptera	0	13
+18	infraclass	33341	33340	Orthopteroidea	0	9
+19	order	7020	33341	Phasmatodea	0	9
+20	suborder	213547	7020	Verophasmatodea	0	9
+21	infraorder	523720	213547	Anareolatae	0	7
+22	family	409189	523720	Diapheromeridae	0	7
+23	subfamily	524135	409189	Diapheromerinae	0	7
+24	tribe	524136	524135	Diapheromerini	0	7
+25	genus	629395	524136	Bacteria	7	0
+18	infraclass	33392	33340	Endopterygota	0	4
+19	order	7041	33392	Coleoptera	0	4
+20	suborder	41084	7041	Polyphaga	0	4
+21	infraorder	41088	41084	Cucujiformia	0	4
+22	superfamily	71529	41088	Curculionoidea	0	3
+23	family	110015	71529	Anthribidae	0	3
+24	subfamily	166894	110015	Anthribinae	0	3
+25	tribe	197007	166894	Platystomini	0	3
+26	genus	1091138	197007	Lawsonia	3	0
+3	no rank	33634	2759	Stramenopiles	0	37
+4	phylum	2836	33634	Bacillariophyta	27	3
+4	class	4762	33634	Oomycetes	0	6
+5	no rank	94120	4762	unclassified oomycetes	0	6
+6	no rank	243299	94120	environmental samples	0	6
+7	species	179533	243299	uncultured oomycete	6	0
+3	no rank	61964	2759	environmental samples	0	199
+4	species	100272	61964	uncultured eukaryote	197	0

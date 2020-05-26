@@ -1,0 +1,33 @@
+#STATS from the exceRpt smallRNA-seq pipeline v.4.6.2 for sample sample_DKO1_cell_2_fastq. Run started at 2016-10-17--21:44:53
+Stage	ReadCount
+input	31785155
+successfully_clipped	19177127
+failed_quality_filter	1734583
+failed_homopolymer_filter	15201
+calibrator	NA
+UniVec_contaminants	16536
+rRNA	1203084
+reads_used_for_alignment	16207723
+genome	15383456
+miRNA_sense	11683353
+miRNA_antisense	0
+miRNAprecursor_sense	40176
+miRNAprecursor_antisense	2690
+tRNA_sense	344116
+tRNA_antisense	59
+piRNA_sense	137851
+piRNA_antisense	50
+gencode_sense	2009531
+gencode_antisense	43136
+circularRNA_sense	11
+circularRNA_antisense	265
+not_mapped_to_genome_or_libs	824267
+repetitiveElements	18721
+endogenous_gapped	8553
+input_to_exogenous_miRNA	796993
+exogenous_miRNA	40642
+input_to_exogenous_rRNA	756351
+exogenous_rRNA	4853
+input_to_exogenous_genomes	751498
+exogenous_genomes	515474
+#END OF STATS from the exceRpt smallRNA-seq pipeline. Run completed at 2016-10-20--17:38:16

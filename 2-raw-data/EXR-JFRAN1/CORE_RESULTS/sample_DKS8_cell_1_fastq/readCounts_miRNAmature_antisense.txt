@@ -1,0 +1,2 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+hsa-miR-548ad-5p:MIMAT0032114:Homo:sapiens:miR-548ad-5p|hsa-miR-548ae-5p:MIMAT0032115:Homo:sapiens:miR-548ae-5p	2	2	2.0	0.0

@@ -1,0 +1,31 @@
+#property	value
+Experiment	EXR-ANACC12017NORM5-EX
+- Experiment Type	smRNA-Seq
+-- smRNA-Seq	
+--- Amplified	Yes
+---- DNA Quantification Method	Bioanalyzer
+--- Library Generation	Library preparation was performed with the NEBNext Multiplex Small RNA Library Prep Set for Illumina (New England BioLabs Inc., USA). For each library, 6 Î¼L of RNA (min 35 ng) were used in all the experimental procedures as starting material. Each library was prepared with a unique indexed primer so that the libraries could all be pooled into one sequencing lane. Multiplex adaptor ligations, reverse transcription primer hybridization, reverse transcription reaction and PCR amplification were performed according to the protocol for library preparation (Protocol E7330, New England BioLabs Inc., USA). After PCR amplification, the cDNA constructs were purified with the QIAQuick PCR Purification Kit (Qiagen, Germany) following the modifications suggested by the NEBNext Multiplex Small RNA Library Prep Protocol and loaded on the Bioanalyzer 2100 (Agilent, Germany) using the DNA High Sensitivity Kit (Agilent, Germany) according to the manufacturerâ€™s protocol. Libraries were pooled together (24plex) and further purified with a gel size selection.
+---- Library Construction Kit	NEBNext small RNA library prep (NEB)
+----- Other Library Construction Kit	
+---- Multiplexed Samples	Yes
+---- Strand Specificity	non-stranded
+---- Type of Starting Material	small RNA
+----- Other Type of Starting Material	
+- Status	Add
+- exRNA Sample Preparation Protocol	
+-- exRNA Quantification Method	Other
+--- Other exRNA Quantification Method	QubitÂ® 2.0 Fluorometer with QubitÂ® microRNA Assay Kit (Invitrogen)
+-- RNA Isolation Method	
+--- RNA Isolation Kit	Other
+---- Other Kits	Stool Total RNA Purification Kit (Norgen Biotek Corp)
+--- Description	RNA was extracted using the Stool Total RNA Purification Kit (Norgen Biotek Corp).
+-- Pre-purification of Extracellular Vesicles	No
+-- Protocol Description	Stool samples were collected in special tubes with RNA stabilizing solution, returned at the time of performing colonoscopy and stored at â€“80Â°C until RNA extraction.
+- exRNA Source Isolation Protocol	
+-- Biofluid	
+--- Cell Removal Step Done	No
+-- Protocol Description	Samples from a hospital-based study for colorectal cancer diagnosis, subjects resulting negative to colonoscopy and to any inflammatory disease were included in the present study. Naturally evacuated stool samples were collected in special tubes with RNA stabilizing solution, returned at the time of performing colonoscopy and stored at ?80?C until RNA extraction. RNA from stool was extracted using the Stool Total RNA Purification Kit (Norgen Biotek Corp).
+-* References	1
+-*- Reference ID	EXR-ANACC1FERRERO1-REF
+-*-- DOI	https://doi.org/10.18632/oncotarget.23203
+-*-- Other URL	http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=view&path%5B%5D=23203&path%5B%5D=73148

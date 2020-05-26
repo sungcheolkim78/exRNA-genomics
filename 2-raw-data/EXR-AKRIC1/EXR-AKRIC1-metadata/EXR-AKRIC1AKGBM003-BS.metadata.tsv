@@ -1,0 +1,25 @@
+#property	value
+Biosample	EXR-AKRIC1AKGBM003-BS
+- Status	Protect
+- Name	Sample 3
+* Related Experiments	1
+*- Related Experiment	EXR-AKRIC1AKGBMexo-EX
+*-- DocURL	coll/Experiments/doc/EXR-AKRIC1AKGBMexo-EX
+- Donor ID	EXR-AKRIC1AKGBM003-DO
+-- DocURL	coll/Donors/doc/EXR-AKRIC1AKGBM003-DO
+- Biological Sample Elements	
+-- Notes	Source material is low-passage cell cultures.
+-- Biological Fluid	
+--- Biofluid Name	Culture Media, Conditioned
+-- Species	
+--- Scientific Name	Homo sapiens
+-- Cell Culture Supernatant	
+--- Source	Tumor Tissue
+---- Type	cell culture
+--- Tissue	brain
+---- Tissue Type	Tumor tissue sample
+-- Anatomical Location	Cellular analyte
+-- Disease Type	glioblastoma multiforme
+- Molecular Sample Elements	
+-- exRNA Source	extracellular exosome
+-- Fractionation	Yes

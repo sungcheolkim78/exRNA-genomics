@@ -1,0 +1,10 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+hsa_piR_021523|gb|DQ599532|Homo_sapiens:18:11611040:11611065:Minus	2	2	2.0	0.0
+hsa_piR_002839|gb|DQ573821|Homo_sapiens:9:18973411:18973438:Minus	1	2	2.0	0.0
+hsa_piR_014620|gb|DQ590013|Homo_sapiens:5:93930930:93930956:Minus	1	2	2.0	0.0
+hsa_piR_015527|gb|DQ591217|Homo_sapiens:4:119773661:119773692:Plus	2	2	2.0	0.0
+hsa_piR_006394|gb|DQ578738|Homo_sapiens:2:111172010:111172038:Plus	1	1	1.0	0.0
+hsa_piR_007186|gb|DQ579795|Homo_sapiens:9:42454053:42454080:Plus	1	1	1.0	0.0
+hsa_piR_006110|gb|DQ578388|Homo_sapiens:4:120549871:120549902:Minus	1	1	1.0	0.0
+hsa_piR_008666|gb|DQ581768|Homo_sapiens:15:91754902:91754927:Plus	1	1	1.0	0.0
+hsa_piR_011850|gb|DQ586024|Homo_sapiens:10:52105327:52105352:Minus	1	1	1.0	0.0

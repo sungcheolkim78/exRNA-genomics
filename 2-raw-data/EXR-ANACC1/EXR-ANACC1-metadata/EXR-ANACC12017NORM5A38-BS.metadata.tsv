@@ -1,0 +1,21 @@
+#property	value
+Biosample	EXR-ANACC12017NORM5A38-BS
+- Status	Protect
+- Name	Stool_38
+* Related Experiments	1
+*- Related Experiment	EXR-ANACC12017NORM5-EX
+*-- DocURL	coll/Experiments/doc/EXR-ANACC12017NORM5-EX
+- Donor ID	EXR-ANACC12017NORM5A38-DO
+-- DocURL	coll/Donors/doc/EXR-ANACC12017NORM5A38-DO
+- Biological Sample Elements	
+-- Biological Fluid	
+--- Biofluid Name	Stool specimen
+-- Species	
+--- Common Name	Human
+--- Scientific Name	Homo sapiens
+--- Taxon ID	9606
+-- Anatomical Location	Digestive tract structure
+-- Disease Type	Healthy Control
+- Molecular Sample Elements	
+-- exRNA Source	total cell-free biofluid RNA
+-- Fractionation	Yes

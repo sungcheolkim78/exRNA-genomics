@@ -1,0 +1,33 @@
+#STATS from the exceRpt smallRNA-seq pipeline v.4.6.2 for sample sample_DKS8_exo_1_fastq. Run started at 2016-10-17--21:42:26
+Stage	ReadCount
+input	6794619
+successfully_clipped	3042157
+failed_quality_filter	175750
+failed_homopolymer_filter	18569
+calibrator	NA
+UniVec_contaminants	287042
+rRNA	1260974
+reads_used_for_alignment	1299822
+genome	806829
+miRNA_sense	163981
+miRNA_antisense	0
+miRNAprecursor_sense	791
+miRNAprecursor_antisense	55
+tRNA_sense	112560
+tRNA_antisense	0
+piRNA_sense	46725
+piRNA_antisense	0
+gencode_sense	397720
+gencode_antisense	4047
+circularRNA_sense	5
+circularRNA_antisense	8
+not_mapped_to_genome_or_libs	492993
+repetitiveElements	3603
+endogenous_gapped	10184
+input_to_exogenous_miRNA	479206
+exogenous_miRNA	508
+input_to_exogenous_rRNA	478698
+exogenous_rRNA	72060
+input_to_exogenous_genomes	406638
+exogenous_genomes	345742
+#END OF STATS from the exceRpt smallRNA-seq pipeline. Run completed at 2016-10-20--17:35:38

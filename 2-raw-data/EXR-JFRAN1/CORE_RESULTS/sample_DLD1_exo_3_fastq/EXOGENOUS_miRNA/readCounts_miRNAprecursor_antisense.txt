@@ -1,0 +1,10 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+bta-mir-2898:MI0013073:Bos:taurus:miR-2898:stem-loop	1	3	3.0	0.0
+tca-mir-3884:MI0016381:Tribolium:castaneum:miR-3884:stem-loop	1	2	2.0	0.0
+ppy-mir-1273a:MI0015230:Pongo:pygmaeus:miR-1273a:stem-loop	2	2	1.25	0.0
+bta-mir-2892:MI0013067:Bos:taurus:miR-2892:stem-loop	1	1	1.0	0.0
+rno-mir-27a:MI0000860:Rattus:norvegicus:miR-27a:stem-loop	1	1	0.5	0.0
+mmu-mir-27a:MI0000578:Mus:musculus:miR-27a:stem-loop	1	1	0.5	0.0
+ptr-mir-1273:MI0008474:Pan:troglodytes:miR-1273:stem-loop	1	1	0.25	0.0
+hsa-mir-1273a:MI0006409:Homo:sapiens:miR-1273a:stem-loop	1	1	0.25	0.0
+hsa-mir-4459:MI0016805:Homo:sapiens:miR-4459:stem-loop	1	1	0.25	0.0

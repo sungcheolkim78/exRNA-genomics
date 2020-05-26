@@ -1,0 +1,35 @@
+#property	value
+Experiment	EXR-ANACC12017NORM3-EX
+- Experiment Type	smRNA-Seq
+-- smRNA-Seq	
+--- Amplified	Yes
+---- DNA Quantification Method	Bioanalyzer
+--- Library Generation	Library preparation was performed with the NEBNext Multiplex Small RNA Library Prep Set for Illumina (New England BioLabs Inc., USA). For each library, 6 Î¼L of RNA (min 35 ng) were used in all the experimental procedures as starting material. Each library was prepared with a unique indexed primer so that the libraries could all be pooled into one sequencing lane. Multiplex adaptor ligations, reverse transcription primer hybridization, reverse transcription reaction and PCR amplification were performed according to the protocol for library preparation (Protocol E7330, New England BioLabs Inc., USA). After PCR amplification, the cDNA constructs were purified with the QIAQuick PCR Purification Kit (Qiagen, Germany) following the modifications suggested by the NEBNext Multiplex Small RNA Library Prep Protocol and loaded on the Bioanalyzer 2100 (Agilent, Germany) using the DNA High Sensitivity Kit (Agilent, Germany) according to the manufacturerâ€™s protocol. Libraries were pooled together (24plex) and further purified with a gel size selection.
+---- Library Construction Kit	NEBNext small RNA library prep (NEB)
+----- Other Library Construction Kit	
+---- Multiplexed Samples	Yes
+---- Strand Specificity	non-stranded
+---- Type of Starting Material	small RNA
+----- Other Type of Starting Material	
+- Status	Add
+- exRNA Sample Preparation Protocol	
+-- exRNA Quantification Method	Other
+--- Other exRNA Quantification Method	QubitÂ® 2.0 Fluorometer with QubitÂ® microRNA Assay Kit (Invitrogen)
+-- RNA Isolation Method	
+--- RNA Isolation Kit	miRNeasy (Qiagen)
+---- Other Kits	
+--- Description	Total RNA from plasma exosomes was extracted with the miRNeasy plasma/serum mini kit (Qiagen) using the QiaCube extractor (Qiagen). RNA from stool was extracted using the Stool Total RNA Purification Kit (Norgen Biotek Corp). Total RNA from urine was extracted with Urine microRNA Purification kit (Norgen biotek corp), following the manufacturer's standard protocol.
+-- Pre-purification of Extracellular Vesicles	Yes
+-- Protocol Description	Human plasma samples were obtained from 5â€“8 ml of blood centrifuged for 10 min at 1000 rpm. Plasma aliquots (about 200â€“300 Î¼l each) were then stored at â€“80Â°C until use
+- Extracellular Vesicle Isolation Protocol	
+-- Commercially Available Kits	Exoquick (System Biosciences)
+-- Protocol Description	Exosomes were isolated from plasma using the ExoQuick exosome precipitation solution according to the manufacturer's instructions with minor modifications. The mixture was then further centrifuged at 1500 g for 30 min. The exosome pellet was dissolved in nuclease free water; RNA was extracted immediately from the solution.
+- exRNA Source Isolation Protocol	
+-- Biofluid	
+--- Cell Removal Step Done	Yes
+---- Cell Removal Method	High speed centrifugation
+-- Protocol Description	Human plasma samples were obtained from 5-8 ml of blood centrifuged for 10 min at 1000 rpm. Plasma aliquots were then stored at -80Â°C until use. Exosomes were isolated from plasma using the ExoQuick exosome precipitation solution according to the manufacturer's instructions with minor modifications. The mixture was then further centrifuged at 1500 g for 30 min. The exosome pellet was dissolved in nuclease free water; RNA was extracted immediately from the solution. Samples were collected from healthy blood donors for a Leukaemia study
+-* References	1
+-*- Reference ID	EXR-ANACC1FERRERO1-REF
+-*-- DOI	https://doi.org/10.18632/oncotarget.23203
+-*-- Other URL	http://www.oncotarget.com/index.php?journal=oncotarget&page=article&op=view&path%5B%5D=23203&path%5B%5D=73148

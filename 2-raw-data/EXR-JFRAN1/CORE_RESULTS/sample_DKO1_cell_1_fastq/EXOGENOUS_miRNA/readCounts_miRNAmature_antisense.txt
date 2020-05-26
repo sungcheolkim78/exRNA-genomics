@@ -1,0 +1,4 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+hsa-mir-548ae-1:MI0016779:Homo:sapiens:miR-548ae-1:stem-loop	1	1	0.3333333333333333	0.0
+hsa-miR-548ar-5p:MIMAT0022265:Homo:sapiens:miR-548ar-5p	1	1	0.3333333333333333	0.0
+hsa-mir-548ae-2:MI0016780:Homo:sapiens:miR-548ae-2:stem-loop	1	1	0.3333333333333333	0.0

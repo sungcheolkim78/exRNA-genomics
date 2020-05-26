@@ -1,0 +1,14 @@
+ReferenceID	uniqueReadCount	totalReadCount	multimapAdjustedReadCount	multimapAdjustedBarcodeCount
+mmu-mir-6240:MI0021587:Mus:musculus:miR-6240:stem-loop	4	4	4.0	0.0
+ppy-mir-1273a:MI0015230:Pongo:pygmaeus:miR-1273a:stem-loop	4	4	4.0	0.0
+efu-mir-9221:MI0028482:Eptesicus:fuscus:miR-9221:stem-loop	1	2	2.0	0.0
+dre-mir-735:MI0004781:Danio:rerio:miR-735:stem-loop	2	2	2.0	0.0
+mmu-mir-6236:MI0021583:Mus:musculus:miR-6236:stem-loop	2	2	2.0	0.0
+rlcv-mir-rL1-2:MI0003738:Rhesus:lymphocryptovirus:miR-rL1-2:stem-loop	1	1	1.0	0.0
+hsa-mir-1273d:MI0014254:Homo:sapiens:miR-1273d:stem-loop	1	1	1.0	0.0
+gga-mir-1434:MI0006992:Gallus:gallus:miR-1434:stem-loop	1	2	1.0	0.0
+bta-mir-1434:MI0011514:Bos:taurus:miR-1434:stem-loop	1	2	1.0	0.0
+cel-mir-788:MI0005188:Caenorhabditis:elegans:miR-788:stem-loop	1	1	1.0	0.0
+bta-mir-2898:MI0013073:Bos:taurus:miR-2898:stem-loop	1	1	1.0	0.0
+bta-mir-2285o-2:MI0022271:Bos:taurus:miR-2285o-2:stem-loop	1	1	0.5	0.0
+bta-mir-2285o-1:MI0022270:Bos:taurus:miR-2285o-1:stem-loop	1	1	0.5	0.0

@@ -1,0 +1,33 @@
+#STATS from the exceRpt smallRNA-seq pipeline v.4.6.2 for sample sample_GBM2_exosome_clean_fq. Run started at 2016-10-17--17:01:00
+Stage	ReadCount
+input	13497116
+successfully_clipped	13431204
+failed_quality_filter	100914
+failed_homopolymer_filter	22407
+calibrator	NA
+UniVec_contaminants	1684291
+rRNA	3743239
+reads_used_for_alignment	7880353
+genome	6046376
+miRNA_sense	631386
+miRNA_antisense	1
+miRNAprecursor_sense	4661
+miRNAprecursor_antisense	108
+tRNA_sense	108898
+tRNA_antisense	0
+piRNA_sense	20887
+piRNA_antisense	10
+gencode_sense	4310908
+gencode_antisense	341142
+circularRNA_sense	6
+circularRNA_antisense	42
+not_mapped_to_genome_or_libs	1833977
+repetitiveElements	96362
+endogenous_gapped	24461
+input_to_exogenous_miRNA	1713154
+exogenous_miRNA	555
+input_to_exogenous_rRNA	1712599
+exogenous_rRNA	25553
+input_to_exogenous_genomes	1687046
+exogenous_genomes	389208
+#END OF STATS from the exceRpt smallRNA-seq pipeline. Run completed at 2016-10-20--11:42:36
